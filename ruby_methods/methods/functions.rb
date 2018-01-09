@@ -56,13 +56,16 @@ end
 # discard the first 3 elements of an array, 
 # e.g. [1, 2, 3, 4, 5, 6] becomes [4, 5, 6]
 def all_elements_except_first_3(array)
-	array.shift 
+	array.drop(3)
+end
 
 
 # turn an array (with an even number of elements) into a hash, by
 # pairing up elements. e.g. ['a', 'b', 'c', 'd'] becomes
 # {'a' => 'b', 'c' => 'd'}
-# convert_array_to_a_hash
+def convert_array_to_a_hash(array)
+	h = Hash[*array]
+end
 
 
 # Write a functino that takes any number and returns a value based on these rules 
@@ -71,7 +74,10 @@ def all_elements_except_first_3(array)
 # For the multiples of five print "Buzz". 
 # For numbers which are multiples of both three and five print "FizzBuzz".
 
-# fizz_buzz  
+def fizz_buzz(number)
+	if number%3==0 && number%5 == 0 then "FizzBuzz" elsif number%3 ==0 then "Fizz" elsif number%5 == 0 then "Buzz"  else number end
+		
+end  
 
 
 
