@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car list</title>
+</head>
+<body>
+	 <a href="/cars/new">New Car</a>
+	<% @cars.each do |car| %>
+	<div>
+   		<h3>
+   			<a href="/cars/<%= car[:id] %>"><%= car[:brand] %></a>
+   		</h3>
+   </div>
+	<% end %>
+</body>
+</html>

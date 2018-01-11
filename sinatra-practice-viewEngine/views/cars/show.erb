@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3><%= @car[:id] %></h3>
+	<h3><%= @car[:brand] %></h3>
+	<h3><%= @car[:year] %></h3>
+	<a href="/cars/<%= @car[:id] %>/edit">edit</a>
+	<form method="POST" action="/cars/<%= @car[:id] %>">
+		<input type="hidden" name="_method" value="DELETE">
+		<button>DELETE</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form method="POST" action="/cars/<%= @car[:id] %>"> <!-- why do we need to override post? -->
+		<input type="hidden" name="_method" value="PUT">
+		<label for="brand">Brand:</label>
+		<input type="text" name="brand" value="<%= @car[:brand] %>">
+		<label for="year">Year:</label>
+		<input type="number" name="year" value="<%= @car[:year] %>">
+		<input type="submit" value="Update">
+	</form>
+
+</body>
+</html>
