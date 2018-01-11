@@ -9,6 +9,10 @@
 	<div>
    		<h3>
    			<a href="/cars/<%= car[:id] %>"><%= car[:brand] %></a>
+   			<form method="POST" action="/cars/<%= car[:id] %>">
+				<input type="hidden" name="_method" value="DELETE">
+				<button>DELETE</button>
+			</form>
    		</h3>
    </div>
 	<% end %>

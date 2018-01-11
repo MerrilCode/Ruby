@@ -5,42 +5,47 @@ class CarController < Sinatra::Base
 	configure :development do
 	    register Sinatra::Reloader
 	end
-
+# CARS DATA
 	$cars = [{
 			id: 0,
 			brand: "Aston Martin",
-			year: 2014
+			year: 2014,
+			image: "https://www.driving.co.uk/s3/st-driving-prod/uploads/2016/12/db11-08.jpg"
 	  	},
 	  	{
 		  	id: 1,
 		  	brand: "Ferrari",
-		  	year: 2015
+		  	year: 2015,
+		  	image: "https://buyersguide.caranddriver.com/media/assets/submodel/8119.jpg"
 		},
 		{
 			id: 2,
 			brand: "McLaren",
-			year: 2010
+			year: 2010,
+			image: "https://cdn.shopify.com/s/files/1/1429/2252/products/135-75110-01.jpg?v=1484296870"
 		}
 
 	  ]
-
+# DISPLAY THE CARS ON INDEX
 	get '/cars' do
 		@cars = $cars
 	  	erb :"cars/index"
 	end
 
-	#NEW
+	#NEW CAR
 	get '/cars/new' do
 		@brand = "Brand"
 		@year = "Year"
 		erb :"cars/new"
 	end
-
+# EDIT CAR
 	get '/cars/:id/edit' do
 		id = params[:id]
 		@car = $cars[id.to_i]
 		erb :"cars/edit"
 	end
+
+	#UPDATE CAR
 
 	put '/cars/:id'  do
     
@@ -58,13 +63,13 @@ class CarController < Sinatra::Base
   	end
 
 	
-#SHOW
+#SHOW CAR
 	get '/cars/:id' do
 		id = params[:id]
 		@car = $cars[id.to_i]
 		erb :"cars/show"
 	end
-
+# ADD NEW CAR
 	post '/cars' do
 		new_car = {
 			id: $cars.length,
@@ -75,7 +80,7 @@ class CarController < Sinatra::Base
 		redirect "/cars"
 	end
 
-	#DELETE
+	#DELETE CAR
 	delete '/cars/:id' do
 		id = params[:id].to_i
 		$cars.delete_at(id)
