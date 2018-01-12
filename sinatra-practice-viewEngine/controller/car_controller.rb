@@ -6,7 +6,8 @@ class CarController < Sinatra::Base
 	    register Sinatra::Reloader
 	end
 # CARS DATA
-	$cars = [{
+	$cars = [
+		{
 			id: 0,
 			brand: "Aston Martin",
 			year: 2014,
@@ -25,8 +26,8 @@ class CarController < Sinatra::Base
 			image: "https://cdn.shopify.com/s/files/1/1429/2252/products/135-75110-01.jpg?v=1484296870"
 		}
 
-	  ]
-# DISPLAY THE CARS ON INDEX
+	]
+	# DISPLAY THE CARS ON INDEX
 	get '/cars' do
 		@cars = $cars
 	  	erb :"cars/index"
@@ -38,7 +39,7 @@ class CarController < Sinatra::Base
 		@year = "Year"
 		erb :"cars/new"
 	end
-# EDIT CAR
+	# EDIT CAR
 	get '/cars/:id/edit' do
 		id = params[:id]
 		@car = $cars[id.to_i]
@@ -69,6 +70,7 @@ class CarController < Sinatra::Base
 		@car = $cars[id.to_i]
 		erb :"cars/show"
 	end
+
 # ADD NEW CAR
 	post '/cars' do
 		new_car = {
@@ -86,8 +88,5 @@ class CarController < Sinatra::Base
 		$cars.delete_at(id)
 		redirect '/cars'
 	end
-
-
-
 
 end
