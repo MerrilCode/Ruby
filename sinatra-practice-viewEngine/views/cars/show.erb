@@ -4,13 +4,13 @@
 	<title></title>
 </head>
 <body>
-	<h3><%= @car[:id] %></h3>
-	<h3><%= @car[:brand] %></h3>
-	<h3><%= @car[:year] %></h3>
-	<img src="<%= @car[:image] %>">
-	<a href="/cars/<%= @car[:id] %>/edit">edit</a>
+	<h3><%= @car.id %></h3>
+	<h3><%= @car.name %></h3>
+	<h3><%= @car.year %></h3>
+	<img src="<%= @car.url %>">
+	<a href="/cars/<%= @car.id %>/edit">edit</a>
 	<a href="/cars">Home</a>
-	<form method="POST" action="/cars/<%= @car[:id] %>">
+	<form method="POST" action="/cars/<%= @car.id %>">
 		<input type="hidden" name="_method" value="DELETE">
 		<button>DELETE</button>
 	</form>

@@ -26,10 +26,13 @@ class ContactsController < Sinatra::Base
 		}
 	]
 
+	before do 
+		@title = "Address Book"
+	end
+
 #INDEX
 
 	get '/contacts' do
-		@title = "Contacts"
 		@contacts = $contacts
 	  	erb :"contacts/index"
 	end

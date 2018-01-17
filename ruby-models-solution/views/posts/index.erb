@@ -1,0 +1,10 @@
+
+<h1>Welcome to the homepage</h1>
+
+<% @posts.each do |post| %> <!-- Each Post objects id, title and body is displayed -->
+<div>
+  <h3><a href="/<%= post.id %>"><%= post.title %></a></h3> <!-- id is displayed on url get '/id' -->
+  <p><%= post.body %></p>
+  
+</div>
+<% end %>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title %></title>
+</head>
+<body>
+	<nav>
+	  <a href="/contacts">Contacts</a>
+	  <a href="/contacts/new">New Contact</a>
+	</nav>
+    
+	<h1>Welcome to the homepage</h1>
+
+	<% @contacts.each do |contact| %>
+		<div>
+			<h3>
+				<a href="/contacts/<%= contact[:id] %>"><%= contact[:name] %></a>
+			</h3>
+		</div>
+	<% end %>
+</body>
+</html>

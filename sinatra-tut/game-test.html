@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week-3-Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="game-test.css">  
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div id="score">0</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id = "speed" class="col-lg-12 col-md-12 col-sm-12">
+						<h1 id="currentSpeed">0</h1><img id="speedoMeter" src="./images/speed.png">
+					</div>
+				</div>
+				<div class="row">
+					<div id= "audioControl" class="col-lg-12 col-md-12 col-sm-12">
+						<audio  loop>
+							<source src="f1Sound.mp3" type="audio/mpeg">
+						</audio>
+						<audio id="crashingCar">
+							<source src="crashingCar.mp3" type="audio/mpeg">
+						</audio>
+
+					</div>
+				</div>
+
+					<div  class="col-lg-12 col-md-12 col-sm-12">
+						<button  id="start" type="button" class="btn btn-info btn-lg">Start</button>
+							<button  type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Instruction</button>
+							<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- modal content -->
+									<div class="modal-contant">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+          									<h4 class="modal-title">How to play</h4>
+       									</div>
+       									<div id="instruction" class="modal-body">
+											<img src="./images/keys.png">
+											<p> Please use these keys to move the controller car</p>
+										</div>
+										<div class="modal-footer">
+          									<button id="instructionClose" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        								</div>
+									</div>
+
+								</div>
+							</div>
+					</div>
+				
+			</div>
+			<div id="roadCol" class="col-lg-9 col-md-9 col-sm-9">
+				
+				<div id="restartDiv">
+					<p> You crashed</p>
+					<button id="restart" class="btn btn-info"><span class="glyphicon glyphicon-repeat"></span> Restart Game</button>
+				</div>	
+				<div id="line1" class="line"></div>
+		        <div id="line2" class="line"></div>
+		        <div id="line3" class="line"></div>
+				<div id="box" class="car burning"></div>
+				<div id="car1" class="car"></div>	
+				<div id="car2" class="car"></div>	
+				<div id="car3" class="car"></div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="game-test.js"></script>
+</body>
+</html>

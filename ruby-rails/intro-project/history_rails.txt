@@ -1,0 +1,2747 @@
+    1  cd ~; rm -rf ./laptop;\n
+    2  bash <(curl -s https://raw.githubusercontent.com/spartaglobal/laptop/master/cleanup);\n
+    3  ls
+    4  cd /
+    5  ls
+    6  cd ~
+    7  ls
+    8  cd Documents
+    9  ls
+   10  las
+   11  ls
+   12  cd ~
+   13  ls
+   14  cd Desktop
+   15  ls
+   16  cd /
+   17  ls
+   18  cd home
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd usr
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd ~
+   27  ls
+   28  sudo ls
+   29  clear
+   30  ls
+   31  read me
+   32  echo $me
+   33  clear
+   34  vim
+   35  hkhkjkjkjlklktmux
+   36  tmux
+   37  ~/.bash_profile
+   38  vim ~/.bash_profile
+   39  ~ cd Desktop
+   40  ls
+   41  cd Desktop
+   42  pwd
+   43  touch index.html
+   44  rm index.html
+   45  ls
+   46  pwd
+   47  /
+   48  ls
+   49  /
+   50  ~
+   51  ls
+   52  pwd
+   53  mkdir classwork
+   54  cd classwork
+   55  ls
+   56  mkdir eng-5
+   57  cd eng-5
+   58  ls
+   59  clear
+   60  pwd
+   61  ls
+   62  cd ..
+   63  cd ./eng-5
+   64  ls
+   65  pwd
+   66  ~
+   67  ls
+   68  cd /Users/tech-a67/classwork/eng-5
+   69  mkdir ../eng-4
+   70  cd ..
+   71  ls
+   72  pwd
+   73  rmdir eng-4
+   74  ls
+   75  find eng
+   76  find eng-5
+   77  find Desktop
+   78  find *Desktop
+   79  mkdir ./eng-5/temp
+   80  ls
+   81  cd eng-5
+   82  ls
+   83  cd ../../
+   84  ls
+   85  cd classwork
+   86  \n\n\n\nUK Top 10 Graduate Employer\n\n\nM: 07729313852\nE: lexiepaps@spartaglobal.com \n\n\nCome and visit one of our tech training academies in Birmingham, London or Leeds and discover your future talent pipeline.\n\nPS: Know someone who wants to build a new career in tech? Please put them in touch - we can help!\n    \nIMPORTANT NOTICE:\nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the sender. Please note that any views or opinions presented in this email are solely those of the author and do not necessarily represent those of Testing Circle Limited. Although Testing Circle Limited has taken every reasonable precaution to ensure that any e-mails have been checked for viruses, it is the responsibility of the recipient to ensure this e-mail and its attachments are virus free before opening. Testing Circle Limited accepts no liability for any damage caused by any virus transmitted by this email. Please note that Testing Circle Limited monitors e-mails sent or received. Further communication will signify your consent to this. Testing Circle Limited is a limited liability company registered in England and Wales under company no. 5597367.\n\n\n:q
+   87  clear
+   88  ls
+   89  cd ./eng-5/temp
+   90  ls
+   91  cd ../../
+   92  cd eng-5/temp
+   93  cd ...
+   94  cd eng-5/temp
+   95  ...
+   96  locate eng-5
+   97  ls
+   98  cp -r ./eng-5/temp ../
+   99  ls
+  100  cd eng-5
+  101  ls
+  102  find "hello" /
+  103  ls
+  104  cp -r ./temp ../eng-5/../
+  105  ls
+  106  cd ../../
+  107  ls
+  108  cd classwork
+  109  ls
+  110  rmdir temp
+  111  quota
+  112  clear
+  113  rm -r 
+  114  rm -r ./
+  115  rm -r ./*
+  116  ls
+  117  rm -rf ./eng-5/
+  118  ls
+  119  clear
+  120  mkdir html-intro
+  121  mkdir ./html-intro/css js
+  122  ls
+  123  rm -r js
+  124  ls
+  125  rm -r html-intro/css
+  126  mkdir ./html-intro/css ./html-intro/js
+  127  ls
+  128  cd html-intro
+  129  ls
+  130  cd ../
+  131  ls
+  132  vim index.html
+  133  ls
+  134  open .
+  135  ls
+  136  rm index.html
+  137  ls
+  138  cd
+  139  ls
+  140  cd classwork
+  141  vim ./html-intro/index.html
+  142  ls
+  143  cd html-intro
+  144  ls
+  145  cd ../
+  146  ls
+  147  cd html-intro
+  148  cd css
+  149  mkdir -p rand
+  150  ls
+  151  rm -r rand
+  152  cd ../../
+  153  ls
+  154  rm -r ./html-intro
+  155  mkdir -p html-intro/css html-intro/js
+  156  ls
+  157  cd html-intro
+  158  ls
+  159  vim ./index.html
+  160  touch
+  161  ls
+  162  open index.html
+  163  subl index.html
+  164  touch advanced.html
+  165  ls
+  166  subl .
+  167  ls
+  168  cd ..
+  169  ls
+  170  mkdir html-lab
+  171  cd html-lab
+  172  subl index.html
+  173  ls
+  174  open index.html
+  175  subl video1.html
+  176  open video1.html
+  177  subl ../html-intro/index.html
+  178  subl video2.html
+  179  subl video3.html
+  180  ls
+  181  mv video2.html video3.html classwork/html-lab/
+  182  cd classwork/html-lab
+  183  open index.html
+  184  ls
+  185  subl index.html
+  186  subl video*
+  187  open index.html\\n%
+  188  ls
+  189  open index.html
+  190  subl index.html
+  191  subl video1.html
+  192  subl video2.html
+  193  subl video3.html
+  194  cd ..
+  195  mkdir git-intro
+  196  ls
+  197  cd git-intro
+  198  git init
+  199  touch index.html
+  200  subl .
+  201  git add .
+  202  git commit -m "Created a home page and added a h1 tag"
+  203  git status
+  204  git add .
+  205  status
+  206  git status
+  207  git commit -m "added a paragraph about version control"
+  208  git status
+  209  git commit -m "added another paragraph about rolling back"
+  210  git add .
+  211  git commit -m "added another paragraph about rolling back"
+  212  git log
+  213  git checkout d75bcc510844924b7aa1b67c6b556333594a3692
+  214  git log
+  215  git checkout d75bcc510844924b7aa1b67c6b556333594a3692
+  216  git master
+  217  git checkout master
+  218  ls
+  219  mkdir css
+  220  touch cd css
+  221  touch index.css
+  222  cd ..
+  223  git add .
+  224  ls
+  225  cd git-intro
+  226  git add .
+  227  git commit -m "added a css folder which contains index.css"
+  228  touch about.html
+  229  git add .
+  230  git commit -m "added a file called about.html in master folder"
+  231  git log
+  232  git checkout 51139f0b0cd9b2b8d4c3e935fcbbef9f09e19b78
+  233  subl about.html
+  234  git commit -m ""added the basic html tags"\n"
+  235  git commit -m "added the basic html tags"\n"\n
+  236  git commit -m "added basic tags to about.html"
+  237  git add .
+  238  git commit -m "added basic tags to about.html"
+  239  ls
+  240  git log
+  241  git checkoout c4a52d192322949db57f00d3d432ecc5ac08f8eb
+  242  git checkout c4a52d192322949db57f00d3d432ecc5ac08f8eb
+  243  git log
+  244  git checkout 51139f0b0cd9b2b8d4c3e935fcbbef9f09e19b78
+  245  subl about.html
+  246  git add .
+  247  git commit -m "revert back to blank"
+  248  git add about.html
+  249  git commit -m "revert back to blank"
+  250  git log
+  251  subl about.html
+  252  git add about.html
+  253  git commit about.html
+  254  git commit about.html -m "added basic tags"
+  255  git log
+  256  git reset --soft 51139f0b0cd9b2b8d4c3e935fcbbef9f09e19b78
+  257  git log
+  258  subl about.html
+  259  git log
+  260  git reset --hard 68b300d572b58d939e61321776322bd192b062ff
+  261  ls
+  262  cd css
+  263  ls
+  264  cd ../
+  265  touch .gitignore
+  266  git add .
+  267  git commit -m "added a git ignore file"
+  268  touch notes.txt
+  269  git status
+  270  git add .
+  271  git commit -m "added a ignore notes"
+  272  git status
+  273  git checkout master
+  274  git status
+  275  git add .
+  276  git status
+  277  git add .
+  278  git commit -m "added ignore text"
+  279  git status
+  280  git log
+  281  ls
+  282  vim cd
+  283  ls
+  284  cd cd
+  285  cd
+  286  ls
+  287  rm video*
+  288  ls
+  289  cd classwork
+  290  ls
+  291  cd git-intro
+  292  ls
+  293  rm cd
+  294  ls
+  295  cd css
+  296  ls
+  297  ls -a
+  298  cd ..
+  299  ls -A
+  300  subl .gitignore
+  301  git status
+  302  ls
+  303  rm notes.txt
+  304  rm .gitignore
+  305  ls -a 
+  306  vim .gitignore
+  307  gitadd .
+  308  git add .
+  309  git status
+  310  vim notes.txt
+  311  git status
+  312  git commit -m "added notes.txt to gitignore"
+  313  git log
+  314  ls
+  315  git status
+  316  git log
+  317  cd ~/.ssh
+  318  mkdir ~/.ssh
+  319  cd ~/.ssh
+  320  ls
+  321  ssh-keygen -t rsa -b 4096 -C "merrilmathew66@gmail.com"
+  322  ls -al
+  323  cat Github.pub
+  324  \n
+  325  eval `ss-agent`
+  326  eval `ssh-agent`
+  327  ssh-add -K Github
+  328  chmod 400 Github
+  329  cd ~
+  330  cd classwork
+  331  cd git-intro
+  332  git remote add origin git@github.com:MerrilCode/Git-Intro.git
+  333  git push origin master
+  334  git pull origin master READMe.md
+  335  git pull origin master README.md
+  336  git pull
+  337  git pull origin master
+  338  git pull origin master --allow-unrelated-histories
+  339  vim README.md
+  340  git pull origin master --allow-unrelated-histories
+  341  subl .
+  342  git push origin master
+  343  cd ..
+  344  rm -rf git-intro
+  345  git clone git@github.com:MerrilCode/Git-Intro.git git-intro
+  346  cd git-intro
+  347  cd ..
+  348  git clone git@github.com:MerrilCode/css-intro.git css-intro
+  349  git pull git@github.com:MerrilCode/css-intro.git
+  350  cd css-intro
+  351  git pull origin master
+  352  git pull
+  353  ls
+  354  touch index.html
+  355  subl .
+  356  open index.html
+  357  mkdir css
+  358  touch css/index.css
+  359  ls
+  360  git push origin master
+  361  git add .
+  362  git commit -m "some css and html"
+  363  git push origin master
+  364  cd ..
+  365  cd css-intro
+  366  cd ..
+  367  ls
+  368  cd css-intro
+  369  touch layout.html
+  370  open layout.html
+  371  ls
+  372  touch /css/layout.css
+  373  touch css/layout.css
+  374  ls
+  375  git add .
+  376  git commit -m "added functionality to layout.html and layout.css"
+  377  ls
+  378  cd css
+  379  ls
+  380  subl .
+  381  cd ..
+  382  ls
+  383  cd ..
+  384  ls
+  385  git clone git@github.com:MerrilCode/css-lab.git
+  386  ls
+  387  cd css-lab
+  388  ls
+  389  touch main.html
+  390  subl .
+  391  ls
+  392  pwd
+  393  open main.html
+  394  git add .
+  395  git commit -m "html for instagram excercise"
+  396  touch main.css
+  397  ls
+  398  sub . ../css-intro/css/*
+  399  subl . ../css-intro/css/*
+  400  ls
+  401  git add .
+  402  git commit -m "added css"
+  403  git add .
+  404  git commit -m "updated css and html"
+  405  git add .
+  406  git commit -m "updated css and html"
+  407  git add .
+  408  git commit -m "updated css and html"
+  409  ls
+  410  cp ../../Downloads/Screen\ Shot\ 2017-12-06\ at\ 09.27.22.png ./
+  411  ls
+  412  mv Screen\ Shot\ 2017-12-06\ at\ 09.27.22.png instagram.png
+  413  git add .
+  414  git commit -m "updated css and html"
+  415  git push
+  416  ls
+  417  git push -u origin master
+  418  cd ..
+  419  ls
+  420  ssh-add ~/.ssh/Github
+  421  git push origin master
+  422  cat history > add_ssh.txt
+  423  ls
+  424  vim add_ssh.txt
+  425  touch index.html
+  426  subl .
+  427  touch index.css
+  428  open index.
+  429  open index.html
+  430  cp ../../Downloads/insta_background.png ./
+  431  ls
+  432  git add .
+  433  cp ../../Downloads/Instagram_logo.png ./
+  434  cd ..
+  435  mkdir advanced-git
+  436  cd advanced-git
+  437  cd ..
+  438  rm -rf advanced-git
+  439  git clone git@github.com:MerrilCode/GitAdvanced.git git-advanced
+  440  ssh-add ~./ssh/Github
+  441  rm -rf advanced-git
+  442  ssh-add ~./ssh/Github
+  443  ssh-add ~/.ssh/Github
+  444  git clone git@github.com:MerrilCode/GitAdvanced.git git-advanced
+  445  cd git-advanced
+  446  ls
+  447  git checkout -b develop
+  448  touch  index.html
+  449  subl
+  450  sub .
+  451  subl index.html
+  452  subl .
+  453  ls
+  454  subl index.html
+  455  git add .
+  456  git commit -m "added html file"
+  457  git checkout master
+  458  ls
+  459  git merge develop 
+  460  ls
+  461  git checkout develop
+  462  git push develop
+  463  git push origin develop
+  464  cd ..
+  465  git clone git@github.com:MerrilCode/GitAdvanced.git team-git
+  466  cd team-git
+  467  ls
+  468  git checkout develop 
+  469  git checkout -b about
+  470  touch index.hmtl
+  471  subl index.html
+  472  ls
+  473  checkout origin master
+  474  git checkout develop 
+  475  git checkout about 
+  476  ls
+  477  subl index.hmtl
+  478  rm index.hmtl
+  479  subl index.html
+  480  git checkout master 
+  481  ls
+  482  cd classwork
+  483  cd team-git
+  484  ls
+  485  git add .
+  486  git commit -m "Added index.html file" 
+  487  git checkout develop 
+  488  ls
+  489  git checkout about 
+  490  git checkout develop 
+  491  git merge about 
+  492  git push origin develop 
+  493  git checkout master
+  494  git checkout about 
+  495  ls
+  496  subl index.html
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd git-advanced
+  501  ls
+  502  cd ..
+  503  cd team-git
+  504  ls
+  505  cd .git
+  506  cat config
+  507  cd ..
+  508  ls
+  509  cd ..
+  510  ls
+  511  cd git-
+  512  cd git-advanced
+  513  ls
+  514  cat .git/config
+  515  cd ..
+  516  git clone git@github.com:JL337/GitAdvanced.git team-git-2
+  517  rm -rf team-git
+  518  mv team-git-2 team-git
+  519  cd team-git
+  520  ls
+  521  git checkout -b homepage
+  522  subl .
+  523  touch index.html
+  524  git add .
+  525  git commit -m "finished homepage"
+  526  git push 
+  527  git checkout develop
+  528  git merge homepage
+  529  git status
+  530  git add .
+  531  git commit -m
+  532  git commit -m "merged with homepage"
+  533  git push origin develop
+  534  ls
+  535  git pull origin develop 
+  536  ls
+  537  git checkout master 
+  538  git pull origin master 
+  539  git checkout develop 
+  540  git checkout -b merril
+  541  ls
+  542  subl index.html
+  543  git add .
+  544  git commit -m "edited the index.html"
+  545  git checkout develop 
+  546  git merge merril 
+  547  git pull origin develop 
+  548  git pull
+  549  git status
+  550  subl index.html
+  551  git add .
+  552  git pull origin develop 
+  553  subl index.html
+  554  git add .
+  555  git commit -m "changed index.html"
+  556  git checkout develop 
+  557  git merge merril 
+  558  ls
+  559  git push origin master 
+  560  git push origin develop 
+  561  git pull origin develop 
+  562  ls
+  563  subl index.html
+  564  git pull origin develop 
+  565  cd classwork
+  566  vim ~/.bash_profile
+  567  source ~/.bash_profile
+  568  vim ~/.bash_profile
+  569  source ~/.bash_profile
+  570  vim ~/.bash_profile
+  571  source ~/.bash_profile
+  572  vim ~/.bash_profile
+  573  source ~/.bash_profile
+  574  ls
+  575  cd classwork
+  576  ls
+  577  cd css-lab
+  578  ls
+  579  git add .
+  580  git commit -m "Added example instagram task"
+  581  git push origin master 
+  582  ls
+  583  subl index.html
+  584  subl index.css
+  585  ls
+  586  cd ..
+  587  ls
+  588  cd classwork
+  589  ls
+  590  cd classwork
+  591  ls
+  592  git clone git@github.com:MerrilCode/sparta-profile.git profile
+  593  ls
+  594  git checkout -b develop 
+  595  cd profile
+  596  git checkout -b develop
+  597  git checkout -b feature
+  598  touch profile.html
+  599  subl profile.html
+  600  touch profile.css
+  601  subl profile.css
+  602  open profile.html
+  603  ls
+  604  subl profile.css
+  605  subl profile.html
+  606  subl ../css-lab/index*
+  607  cp ../../Downloads/sparta-global-logo-white.svg ./
+  608  subl ../css-lab/main.html
+  609  subl ../css-lab/main.css
+  610  cp ../../Downloads/merril ./
+  611  cp ../../Downloads/merril.png ./
+  612  add .
+  613  git add .
+  614  git commit -m "added basic structure and styling"
+  615  git checkout develop 
+  616  git merge feature 
+  617  git push origin develop 
+  618  git checkout master 
+  619  git push origin develop 
+  620  ssh-add ~/.ssh/*
+  621  ls
+  622  cd ../css-lab
+  623  ls
+  624  vim add_ssh.txt
+  625  cd ../profile
+  626  git checkout develop 
+  627  ssh-add ~/.ssh/Github
+  628  git push origin develop 
+  629  git checkout feature 
+  630  git add .
+  631  git commit -m "Updated css"
+  632  git checkout develop 
+  633  git merge feature 
+  634  git push origin develop 
+  635  git add .
+  636  git commit -m "final update on style"
+  637  git checkout develop 
+  638  git merge feature 
+  639  git checkout feature 
+  640  git merge feature 
+  641  git add .
+  642  git checkout feature 
+  643  git commit "more css"
+  644  git commit -m "more css"
+  645  git checkout feature 
+  646  git add .
+  647  git commit -m "more css"
+  648  git checkout develop 
+  649  git push origin develop 
+  650  git log
+  651  git checkout feature 
+  652  git log
+  653  git 
+  654  git reset commit afd14b8e06cff849f41e6bcd11d0b56885611335
+  655  open profile.html
+  656  git add .
+  657  git commit -m "profile after homework review"
+  658  git checkout develop 
+  659  git merge feature 
+  660  git status
+  661  git merge feature 
+  662  subl profile.css
+  663  git status
+  664  git checkout feature 
+  665  touch profile_update.css
+  666  touch profile_update.html
+  667  subl profile*
+  668  git add .
+  669  git commit -"updated profile after homework review"
+  670  git checkout develop 
+  671  git merge feature 
+  672  git add .
+  673  git commit -m "updated profile"
+  674  git push origin develop 
+  675  ssh-add ~/.ssh/Github
+  676  git push origin develop 
+  677  ls
+  678  git checkout feature 
+  679  ls
+  680  rm html,body\ \{
+  681  rm untitled.html
+  682  git add .
+  683  git commit -m"deleted some files from feature"
+  684  git checkout develop 
+  685  git merge feature 
+  686  vim profile.css
+  687  subl profile*
+  688  git merge feature 
+  689  subl profile*
+  690  open profile_update.html
+  691  git merge feature 
+  692  ls
+  693  rm profile.css
+  694  rm profile.html
+  695  ls
+  696  rm html,body\ \{
+  697  git merge feature 
+  698  ls
+  699  git checkout -b read-me
+  700  git push origin develop 
+  701  git status
+  702  git add .
+  703  git commit -m "deleted some files"
+  704  git push origin develop 
+  705  git checkout -b read-me
+  706  macdown set README.md
+  707  git add .
+  708  git commit -m "added a README file"
+  709  git checkout develop 
+  710  git merge read-me 
+  711  git push origin develop 
+  712  history 1
+  713  cd ../
+  714  git clone git@github.com:MerrilCode/bootstrap.git bootstrap
+  715  cd bootstrap
+  716  ls
+  717  cd ..
+  718  cd bootstrap
+  719  touch index.html
+  720  subl index.html
+  721  open index.html
+  722  touch index.css
+  723  subl index.css
+  724  git add .
+  725  git commit -m "Bootstrap tutorial"
+  726  git push origin master 
+  727  cd ..
+  728  cd profile
+  729  ls
+  730  git status
+  731  git checkout -b profile_framework
+  732  ls
+  733  git checkout develop 
+  734  git add .
+  735  git commit -m "added profile.css and profile.html to track"
+  736  git push origin develop 
+  737  git checkout profile_framework 
+  738  touch profile_framework.html
+  739  touch profile_framework.css
+  740  subl profile_framework.html
+  741  ls
+  742  open profile_framework.html
+  743  open profile_framework.css
+  744  subl profile_framework.css
+  745  subl profile_update.html
+  746  ls
+  747  subl profile_update.css
+  748  git add .
+  749  git commit -m "first version of the profile using bootstrap"
+  750  git branch
+  751  git checkout develop 
+  752  git merge profile_framework 
+  753  git push origin develop 
+  754  git checkout profile_framework 
+  755  git add .
+  756  git commit -m "main profile page structure and styling without personal details" 
+  757  git checkout develop 
+  758  git push origin develop 
+  759  git merge profile_framework 
+  760  git push origin develop 
+  761  git checkout profile_framework 
+  762  ls
+  763  touch profile_project.html
+  764  subl profile_project.html
+  765  open profile_project.html
+  766  cp ../../Downloads/md-analysis.png ./
+  767  cp ../../Downloads/project-1-screenshot.png ./
+  768  cp ../../Downloads/Project_Merril.pdf ./
+  769  git add .
+  770  git commit -m "Final styling of profile before homework review. without personal content"
+  771  git checkout develop  
+  772  git merge profile_framework 
+  773  git push origin develop 
+  774  ls
+  775  macdown README.md
+  776  git add .
+  777  git commit "updated the README.md file to include the usage of bootstrap"
+  778  git commit -m "updated the README.md file to include the usage of bootstrap"
+  779  git checkout profile_framework 
+  780  git add .
+  781  git commit -m "updated README.md file to include the usage of bootstrap"
+  782  git push origin develop 
+  783  ssh-add ~./ssh/Github
+  784  ssh-add ~/.ssh/Github
+  785  git push origin develop 
+  786  git checkout profile_framework 
+  787  ls
+  788  git pull origin develop 
+  789  ls
+  790  cp ../../Downloads/merril7.JPG ./
+  791  cp ../../Downloads/merril6.JPG ./
+  792  cp ../../Downloads/merril_profile ./
+  793  cp ../../Downloads/merril_profile.png ./
+  794  git add .
+  795  git commit -m "Made some changes to the profile description and changed profile image"
+  796  git checkout develop 
+  797  git merge profile_framework 
+  798  git push origin develop 
+  799  ssh-add ~/.ssh/Github
+  800  git push origin develop 
+  801  ls
+  802  cd ../../
+  803  la
+  804  ls
+  805  cd classwork
+  806  ls
+  807  git clone git@github.com:MerrilCode/intro-to-js.git
+  808  cd -intro
+  809  ls
+  810  git clone git@github.com:MerrilCode/intro-to-js.git intro-to-js
+  811  cd intro-to-js
+  812  ls
+  813  ls -a
+  814  git clone git@github.com:MerrilCode/intro-to-js.git introtojs
+  815  ssh-add ~/.ssh/Github
+  816  git clone git@github.com:MerrilCode/intro-to-js.git intro-to-js
+  817  cd intro-to-js
+  818  mv ../../Downloads/starter-code ./
+  819  ls
+  820  cd starter-code
+  821  ls
+  822  cd ..
+  823  ls
+  824  subl .
+  825  ls
+  826  mkdir js-control-flow
+  827  cd js-control-flow
+  828  touch index.html
+  829  touch app.js
+  830  subl index.html app.js
+  831  touch calculator.html
+  832  ls
+  833  mv calculator.html ../
+  834  cd ..
+  835  ls
+  836  subl calculator.html
+  837  ls
+  838  calculator.js
+  839  subl calculator.js
+  840  ls
+  841  cd js-control-flow
+  842  git add .
+  843  git commit -m "javascript control flow"
+  844  mv ../../../Downloads/starter-code\ 2 ./
+  845  ls
+  846  cd starter-code\ 2
+  847  ls
+  848  subl .
+  849  ls
+  850  rm index.js
+  851  git add .
+  852  git commit -m "Finished calculator"
+  853  touch fizz-buzz.html fizz-buzz.js
+  854  subl .
+  855  git add .
+  856  git commit -m "finished the fizz buzz game and commented the calculator"
+  857  git push origin master
+  858  ssh-add ~/.ssh/Github
+  859  git push origin master
+  860  cdls
+  861  ls
+  862  cd ../
+  863  ls
+  864  cd ../
+  865  ls
+  866  cd ../
+  867  ls
+  868  cd profile
+  869  ls
+  870  subl profile_framework.* profile_project.html
+  871  ls
+  872  git add .
+  873  git comment -m "added interests to navbar"
+  874  git push origin develop 
+  875  git checkout profile_framework 
+  876  git pull origin develop 
+  877  ls
+  878  git add .
+  879  git comment -m "added interests to navbar"
+  880  git commit -m "added interests to navbar"
+  881  git checkout develop 
+  882  git merge profile_framework 
+  883  git push orgin develop 
+  884  git push origin develop 
+  885  git checkout profile_framework 
+  886  touch lipid_trans.py
+  887  subl lipid_trans.py
+  888  touch remove_water.pl
+  889  subl remove_water.pl
+  890  git add .
+  891  git commit -m "added a python and a perl script from masters course to be included in the git and profile"
+  892  git checkout develop 
+  893  git merge profile_framework 
+  894  git push origin develop 
+  895  cd ../
+  896  ls
+  897  git clone git@github.com:MerrilCode/MD.git msc-md
+  898  cd msc-md
+  899  cp ../profile/lipid_trans.py ./
+  900  cp ../profile/remove_water.pl ./
+  901  git add .
+  902  git commit -m "added python and perl script from msc project"
+  903  git push origin master
+  904  cd ../
+  905  ls
+  906  cd profile
+  907  git checkout profile_framework 
+  908  touch programs
+  909  mv programs programs.html
+  910  subl programs.html
+  911  git add .
+  912  git commit -m "added a programs page and linked to and from other pages"
+  913  git checkout develop 
+  914  git merge profile_framework 
+  915  git push origin develop 
+  916  cd ../
+  917  cd msc-md
+  918  cp ../profile/Project_Merril.pdf ./
+  919  git add .
+  920  git commit -m "added the project pdf to the repository"
+  921  git push origin master 
+  922  rm Project_Merril.pdf
+  923  git add .
+  924  git commit -m "removed the project file from repository"
+  925  git push origin master 
+  926  cd ..
+  927  ls
+  928  cd intro-to-js
+  929  ls
+  930  cd js-control-flow
+  931  ls
+  932  cd starter-code\ 2/
+  933  ls
+  934  subl .
+  935  subl calculator.js
+  936  ls
+  937  cd ../
+  938  ls
+  939  cd ../
+  940  ls
+  941  mkdir week-2
+  942  cd week-2
+  943  ls
+  944  touch week2-day2.html week2-day2.js
+  945  subl .
+  946  cd ../
+  947  ls
+  948  cd js-control-flow
+  949  ls
+  950  cd starter-code\ 2
+  951  ls
+  952  subl .
+  953  js-functions.html
+  954  touch js-functions.html js-functions.js
+  955  subl .
+  956  ls
+  957  cd ../../week-2
+  958  touch scope.html scope.js
+  959  subl .
+  960  touch loops.html loops.js
+  961  subl .
+  962  ls
+  963  cd ../
+  964  ls
+  965  cd ../
+  966  ls
+  967  cd intro-to-js
+  968  ls
+  969  cd js-control-flow
+  970  ls
+  971  subl .
+  972  cd starter-code\ 2
+  973  ls
+  974  cd ../
+  975  ls
+  976  cd ../
+  977  ls
+  978  cd week-2
+  979  ls
+  980  cd classwork
+  981  ls
+  982  cd intro-to-js
+  983  ls
+  984  cd o-co
+  985  cd js-control-flow
+  986  ls
+  987  cd starter-code\ 2
+  988  ls
+  989  cd ../
+  990  ls
+  991  cd ..
+  992  ls
+  993  cd week-2
+  994  ls
+  995  touch rock.
+  996  rm rock.
+  997  touch rock-paper.html rock-paper.js
+  998  ls
+  999  ssh-add ~/.ssh/Github
+ 1000  ls
+ 1001  git add .
+ 1002  git commit -m"rock paper scissor game"
+ 1003  git push origin master 
+ 1004  ls
+ 1005  cd ../
+ 1006  \ls
+ 1007  cd ../
+ 1008  mkdir machine-learning
+ 1009  cd machine-learning
+ 1010  pkg install -forge package_name
+ 1011  homebrew
+ 1012  brew help
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  cd week-2
+ 1017  ls
+ 1018  touch objects.html objects.js
+ 1019  subl .
+ 1020  cd ../
+ 1021  ls
+ 1022  cd starter-code
+ 1023  ls
+ 1024  subl index.js
+ 1025  touch dom.html dom.js
+ 1026  subl .
+ 1027  rm dom.html dom.js
+ 1028  cd ../
+ 1029  ls
+ 1030  cd week-2
+ 1031  ls
+ 1032  touch dom.html dom.js
+ 1033  subl .
+ 1034  ls
+ 1035  cd ../
+ 1036  ls
+ 1037  cd week-2
+ 1038  mv ../../../Downloads/dom-calculator-starter-code ./
+ 1039  ls
+ 1040  cd dom-calculator-starter-code
+ 1041  ls
+ 1042  subl calc.html
+ 1043  git add .
+ 1044  git commit -m "dom caluclator. working progresss"
+ 1045  git push origin master 
+ 1046  ssh-add ~/.ssh/Github
+ 1047  git push origin master 
+ 1048  git add .
+ 1049  git commit -m "Made improvements to dom calculator"
+ 1050  git push origin master 
+ 1051  ssh-add ~/.ssh/Github
+ 1052  git push origin master 
+ 1053  ls
+ 1054  cd ../
+ 1055  ls
+ 1056  touch dom-events.html dom-events.js
+ 1057  subl .
+ 1058  pwd
+ 1059  touch dom-events.css
+ 1060  subl dom-events.css
+ 1061  ls
+ 1062  mkdir day-4
+ 1063  cd day-4
+ 1064  ls
+ 1065  touch index.html index.js
+ 1066  subl .
+ 1067  mv index.html event-dom.html
+ 1068  mv index.js event-dom.js
+ 1069  ls
+ 1070  rm index.html
+ 1071  touch event-dom.css
+ 1072  subl event-dom.css
+ 1073  pwd
+ 1074  ls
+ 1075  touch calculator-tutorial.html calculator-tutorial.js calculator-tutorial.css
+ 1076  subl .
+ 1077  cd ../
+ 1078  ls
+ 1079  cd ../
+ 1080  ls
+ 1081  cd week-2
+ 1082  ls
+ 1083  cd dom-calculator-starter-code
+ 1084  ls
+ 1085  subl .
+ 1086  ls
+ 1087  cd ../
+ 1088  ls
+ 1089  l
+ 1090  cp dom-calculator-starter-code/* .
+ 1091  cp dom-calculator-starter-code/.* .
+ 1092  ls
+ 1093  cd dom-calculator-starter-code
+ 1094  ls
+ 1095  cp * ../day-4
+ 1096  ls
+ 1097  cd ../
+ 1098  cd day-4
+ 1099  cp -R ../dom-calculator-starter-code/* ./
+ 1100  ls
+ 1101  subl .
+ 1102  pwd
+ 1103  git add .
+ 1104  git commit -m "added the calcualtor tutorial"
+ 1105  git push origin master 
+ 1106  ssh-add ~/.ssh/Github 
+ 1107  git push origin master 
+ 1108  ls
+ 1109  cd ../
+ 1110  ls
+ 1111  mv ../../../Downloads/tictactoe-starter-code ./
+ 1112  ls
+ 1113  cd day-4
+ 1114  ls
+ 1115  subl ../tictactoe-starter-code/index.html
+ 1116  subl ../tictactoe-starter-code/script.js
+ 1117  subl ../tictactoe-starter-code/style.css
+ 1118  pwd
+ 1119  ls
+ 1120  subl event-dom.*
+ 1121  ls
+ 1122  pwd
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  cd tictactoe-starter-code
+ 1127  ls
+ 1128  subl .
+ 1129  ls
+ 1130  pwd
+ 1131  ls
+ 1132  cd ../
+ 1133  ls
+ 1134  cd day-4
+ 1135  mkdir jquery
+ 1136  cd jquery
+ 1137  touch index.html app.js style.css
+ 1138  subl .
+ 1139  ls
+ 1140  pwd
+ 1141  ls
+ 1142  cd ../
+ 1143  ls
+ 1144  cd ..
+ 1145  ls
+ 1146  cd tictactoe-starter-code
+ 1147  ls
+ 1148  subl index.html
+ 1149  subl script.js
+ 1150  subl style.css
+ 1151  pwd
+ 1152  ls
+ 1153  cd classwork
+ 1154  cd intro-to-js
+ 1155  ls
+ 1156  cd js-control-flow/
+ 1157  ls
+ 1158  cd ../week-2
+ 1159  ls
+ 1160  cd tictactoe-starter-code
+ 1161  ls
+ 1162  git add .
+ 1163  git commit -m "added the image to a column"
+ 1164  git push origin master 
+ 1165  ssh-add ~/.ssh/Github
+ 1166  git push origin master 
+ 1167  ls
+ 1168  cd ../
+ 1169  ls
+ 1170  cd day-4
+ 1171  ls
+ 1172  subl calculator-tutorial.js 
+ 1173  subl event-dom.js
+ 1174  subl calculator-tutorial.js 
+ 1175  ls
+ 1176  cd ../
+ 1177  ls
+ 1178  cd tictactoe-starter-code
+ 1179  ls
+ 1180  git status
+ 1181  git log
+ 1182  git add .
+ 1183  ls
+ 1184  cd ../
+ 1185  ls
+ 1186  cd day-4
+ 1187  ls
+ 1188  subl calculator-tutorial.js
+ 1189  cd ../tictactoe-starter-code
+ 1190  subl index.html script.js
+ 1191  ls
+ 1192  cd ../
+ 1193  ls
+ 1194  cd day-4
+ 1195  ls
+ 1196  cd jquery
+ 1197  ls
+ 1198  subl app.js
+ 1199  cd ~/classwork
+ 1200  git clone git@github.com:MerrilCode/week3-project.git week3-project
+ 1201  ssh-add ~/.ssh/Github
+ 1202  git clone git@github.com:MerrilCode/week3-project.git week3-project
+ 1203  ls
+ 1204  cd week3-project
+ 1205  ls
+ 1206  git checkout -b develop
+ 1207  ls
+ 1208  git checkout -b requirements
+ 1209  ls
+ 1210  touch requirement.md
+ 1211  subl requirement.md
+ 1212  touch game.html game.js game.css
+ 1213  css open game*
+ 1214  subl game*
+ 1215  cd ~/classwork
+ 1216  ls
+ 1217  cd bootstrap
+ 1218  ls
+ 1219  subl index.html
+ 1220  ls
+ 1221  cd ~/classwork
+ 1222  ls
+ 1223  cd week3-project
+ 1224  ls
+ 1225  open .
+ 1226  ls
+ 1227  cd 
+ 1228  ls
+ 1229  cd Downloads
+ 1230  ls
+ 1231  cd ~
+ 1232  cd classwork/week3-project
+ 1233  ls
+ 1234  git checkout develop 
+ 1235  git checkout requirements 
+ 1236  git add .
+ 1237  git commit -m "Basic functionality like moving an object with arrow keys and infinite background effect"
+ 1238  git checkout develop 
+ 1239  git merge requirements 
+ 1240  git push origin develop 
+ 1241  ssh-add ~/.ssh/Github
+ 1242  git push origin develop 
+ 1243  git checkout -b feature
+ 1244  ls
+ 1245  cd ../
+ 1246  ls
+ 1247  cd intro-to-js
+ 1248  ls
+ 1249  cd week-2
+ 1250  ls
+ 1251  cd day-4
+ 1252  ls
+ 1253  cd ../
+ 1254  ls
+ 1255  cd dom-calculator-starter-code
+ 1256  ls
+ 1257  cd ../
+ 1258  git add .
+ 1259  cd ~
+ 1260  cd classwork/week3-project
+ 1261  ls
+ 1262  git add .
+ 1263  git commit -m "changed css"
+ 1264  git checkout develop 
+ 1265  git merge feature 
+ 1266  git push origin develop 
+ 1267  ls
+ 1268  subl game*
+ 1269  git checkout feature 
+ 1270  touch example-game.html example-game.css example-game.js
+ 1271  subl .
+ 1272  subl example-game.*
+ 1273  git add .
+ 1274  git commit -m "added two functions to repeat cars coming down"
+ 1275  git checkout develop 
+ 1276  git merge feature 
+ 1277  ssh-add ~/.ssh/Github
+ 1278  git push origin develop 
+ 1279  git checkout feature 
+ 1280  git add .
+ 1281  git commit -m "added a function for collision"
+ 1282  git checkout develop 
+ 1283  git merge feature 
+ 1284  git push origin develop 
+ 1285  git checkout feature 
+ 1286  git add .
+ 1287  git commit -m"included a start function,restart button and speed logic for cars. needs road speed and restart implemented"
+ 1288  git checkout develop 
+ 1289  git merge feature 
+ 1290  git push origin develop 
+ 1291  git checkout feature 
+ 1292  ls
+ 1293  git add .
+ 1294  git commit -m"fixed the user car to not move beyond the boundary of lower part of the container."
+ 1295  git checkout develop 
+ 1296  git merge feature 
+ 1297  ssh-add ~/.ssh/Github
+ 1298  git push origin develop 
+ 1299  git branch
+ 1300  git checkout feature 
+ 1301  git add .
+ 1302  git commit -m"fixed the user car when game stops to being immovable"
+ 1303  git checkout develop 
+ 1304  git merge feature 
+ 1305  git push origin develop 
+ 1306  git checkout feature 
+ 1307  git add .
+ 1308  git commit -m "added the restart functionality and fixed the speed issue by implenting a logic to check the frame per second for requestAnimationFrame function"
+ 1309  git checkout develop 
+ 1310  git merge feature 
+ 1311  git push origin develop 
+ 1312  git checkout feature 
+ 1313  git add .
+ 1314  git commit -m"added two more random cars and fixed the issue with random cars appearing on top of each other."
+ 1315  git checkout develop 
+ 1316  git merge feature 
+ 1317  git push origin develop 
+ 1318  ls
+ 1319  open userCar.png
+ 1320  git checkout feature 
+ 1321  git add .
+ 1322  git commit -m "added moving line and background image for the container"
+ 1323  git checkout develop 
+ 1324  git merge feature 
+ 1325  git push origin develop 
+ 1326  git checkout feature 
+ 1327  git add .
+ 1328  git commit -m "added image for the user and random cars"
+ 1329  git checkout develop 
+ 1330  git push origin develop 
+ 1331  git checkout feature 
+ 1332  git add .
+ 1333  git commit -m "added some car images to the game"
+ 1334  ssh-add ~/.ssh/Github
+ 1335  git push origin develop 
+ 1336  git checkout
+ 1337  git checkout feature 
+ 1338  git pull origin develop 
+ 1339  git merge develop 
+ 1340  git add .
+ 1341  git commit -m "merging failed"
+ 1342  git checkout develop 
+ 1343  git merge feature 
+ 1344  git checkout feature 
+ 1345  git pull origin develop 
+ 1346  git checkout develop 
+ 1347  git push origin develop 
+ 1348  git checkout feature 
+ 1349  ls
+ 1350  mv ~/Documents/ferrari_67x164.png ./
+ 1351  git add .
+ 1352  git commit -m "fixed the main user car"
+ 1353  git checkout develop 
+ 1354  git merge feature 
+ 1355  git push origin develop 
+ 1356  ssh-add ~/.ssh/Gitgub
+ 1357  ssh-add ~/.ssh/Github
+ 1358  git push origin develop 
+ 1359  git checkout feature 
+ 1360  ls
+ 1361  git add .
+ 1362  git commit -m "fixed the issue with cars on top of each other"
+ 1363  git checkout develop 
+ 1364  git merge feature 
+ 1365  git push origin develop 
+ 1366  git checkout feature 
+ 1367  git add .
+ 1368  git commit -m "added a background landscape and new raod image"
+ 1369  git checkout develop 
+ 1370  git merge feature 
+ 1371  git push origin develop 
+ 1372  git checkout feature 
+ 1373  ls
+ 1374  git commit -m "added jquery UI effect on main car"
+ 1375  git add .
+ 1376  git commit -m "added Jquery UI effect on main car"
+ 1377  git checkout develop 
+ 1378  git merge feature 
+ 1379  git push origin develop 
+ 1380  git checkout feature 
+ 1381  ls
+ 1382  mv ~/Downloads/formula+1.mp3 ./
+ 1383  ls
+ 1384  git add .
+ 1385  git commit -m"added audio"
+ 1386  git checkout develop 
+ 1387  git merge feature 
+ 1388  git push origin develop 
+ 1389  git checkout feature 
+ 1390  touch game-test.html game-test.js game-test.css
+ 1391  subl .
+ 1392  git add .
+ 1393  git commit -m "remade the files to use bootstrap framework properly and fixed the variable names to camel case. Also included an instruction div"
+ 1394  git checkout develop 
+ 1395  git add .
+ 1396  git commit "made some changes to the newly created files"
+ 1397  git checkout develop 
+ 1398  git commit -m"made some changes to the newly created files"
+ 1399  git checkout develop 
+ 1400  git merge feature 
+ 1401  ssh-add ~/.ssh/Github
+ 1402  git push origin develop 
+ 1403  git checkout feature 
+ 1404  mv example-game.* ~/classwork/intro-to-js/js-control-flow/
+ 1405  ls
+ 1406  git add .
+ 1407  git commit -m"deleted some files not needed"
+ 1408  git checkout develop 
+ 1409  git merge feature 
+ 1410  git push origin develop 
+ 1411  git checkout feature 
+ 1412  git add .
+ 1413  git commit -m"added an image to instruction and sorted out the layout for score and instruction"
+ 1414  git checkout develop 
+ 1415  git merge feature 
+ 1416  git push origin develop 
+ 1417  git checkout feature 
+ 1418  ls
+ 1419  git add .
+ 1420  git commit -m "added a speedo meter image"
+ 1421  git checkout develop 
+ 1422  git merge feature 
+ 1423  git push origin develop 
+ 1424  git checkout feature 
+ 1425  git add .
+ 1426  git commit -m"added speedo meter"
+ 1427  git checkout develop 
+ 1428  git merge feature 
+ 1429  ssh-add ~/.ssh/Github
+ 1430  git push origin develop 
+ 1431  git checkout feature 
+ 1432  git add .
+ 1433  git commit -m"made a modal and fixing the responsive"
+ 1434  git checkout develop 
+ 1435  git merge feature 
+ 1436  git push origin develop 
+ 1437  git checkout feature 
+ 1438  git ad 
+ 1439  git add .
+ 1440  git commit -m "tried to make it responsive. :(. Needs to fix the container height and the cars moving outside the road"
+ 1441  git checkout develop 
+ 1442  git merge feature 
+ 1443  git push origin develop 
+ 1444  git checkout feature 
+ 1445  git add .
+ 1446  git commit -m "added some stuff"
+ 1447  git checkout develop 
+ 1448  git merge feature 
+ 1449  git push origin develop 
+ 1450  ls
+ 1451  git checkout feature 
+ 1452  git status
+ 1453  git log
+ 1454  git reset --soft 6f23db0ac82ac54909db97437b10ce63011aa2c3
+ 1455  git reset --hard 6f23db0ac82ac54909db97437b10ce63011aa2c3
+ 1456  ls
+ 1457  mv ~/Downloads/crashingCar.mp3 ./
+ 1458  ls
+ 1459  mv ~/Downloads/f1Sound.mp3 ./
+ 1460  git add .
+ 1461  git commit -m "added sound effect on car crash and increased the playback sound of kimi racing in 2008"
+ 1462  git checkout develop 
+ 1463  git merge feature 
+ 1464  ssh-add ~/.ssh/Github
+ 1465  git push origin develop 
+ 1466  git checkout feature 
+ 1467  git add
+ 1468  git add .
+ 1469  git commit -m "added moving background image which stops when game stops"
+ 1470  git checkout develop  
+ 1471  git merge feature 
+ 1472  git push origin develop 
+ 1473  git checkout feature 
+ 1474  ls
+ 1475  mv redbull-60x165.png redbull-65x180.png
+ 1476  git add .
+ 1477  git commit -m"added new cars to the game"
+ 1478  git checkout develop 
+ 1479  git merge feature 
+ 1480  ssh-add ~/.ssh/Github
+ 1481  git push origin develop 
+ 1482  mv lotus-65x196.png lotus-65x180.png
+ 1483  ls
+ 1484  git checkout feature 
+ 1485  git add .
+ 1486  git commit -m"added a car to randmly choose from an array for first car"
+ 1487  git checkout develop 
+ 1488  git merge feature 
+ 1489  git push origin develop 
+ 1490  git checkout feature 
+ 1491  ls
+ 1492  git add .
+ 1493  git commit -m"added one car to each array of cars to be selected randomly"
+ 1494  git checkout develop 
+ 1495  git merge feature 
+ 1496  git push origin develop 
+ 1497  git checkout feature 
+ 1498  ls
+ 1499  cd classwork
+ 1500  ls
+ 1501  cd profile
+ 1502  ls
+ 1503  vim README.md
+ 1504  macdown README.md
+ 1505  ls
+ 1506  git add .
+ 1507  git commit -m"updated the README.md file"
+ 1508  git checkout develop 
+ 1509  git merge feature 
+ 1510  git push origin develop 
+ 1511  git checkout feature 
+ 1512  git add .
+ 1513  git commit -m "Fixed the issue with the readme file"
+ 1514  git checkout develop 
+ 1515  git merge feature 
+ 1516  git push origin develop 
+ 1517  git checkout feature 
+ 1518  mv renault-68x124.png renault-68x173.png
+ 1519  mv renault-68x173.png renault-63x173.png
+ 1520  git add .
+ 1521  git commit -m "fixed the issue with README file and fixed the issue with car2 height by replacing with another image"
+ 1522  git checkout develop 
+ 1523  git merge feature 
+ 1524  git push origin develop 
+ 1525  git checkout feature 
+ 1526  git add .
+ 1527  git commit -m "fixed some display issues by making the road div taller for the presentation"
+ 1528  git checkout develop 
+ 1529  git merge feature 
+ 1530  git push origin develop 
+ 1531  git checkout feature 
+ 1532  git add .
+ 1533  git commit -m "added logic to stop the speed at 310 for max speed"
+ 1534  git checkout develop 
+ 1535  git merge feature 
+ 1536  git push origin develop 
+ 1537  git checkout feature 
+ 1538  git add .
+ 1539  git commit -m"added some comments in the .js file"
+ 1540  git checkout develop 
+ 1541  git merge feature 
+ 1542  git push origin develop 
+ 1543  ls
+ 1544  mkdir images
+ 1545  cp *.png images
+ 1546  git checkout feature 
+ 1547  ls
+ 1548  cd images
+ 1549  ls
+ 1550  cd ../
+ 1551  cd images
+ 1552  ls
+ 1553  cd ..
+ 1554  ls *.png
+ 1555  ls
+ 1556  rm *.png
+ 1557  ls
+ 1558  mkdir js
+ 1559  ls
+ 1560  cd ../
+ 1561  ls
+ 1562  cd week3-project
+ 1563  ls
+ 1564  mv *.jpg images
+ 1565  ls
+ 1566  mv *.jpeg images
+ 1567  ls
+ 1568  git add .
+ 1569  git commit -m "moved the images to images folder and updated the code"
+ 1570  git checkout develop 
+ 1571  git merge feature 
+ 1572  git push origin develop 
+ 1573  git checkout feature 
+ 1574  ls
+ 1575  mkdir css
+ 1576  mv game-test.css css
+ 1577  cd js
+ 1578  ls
+ 1579  cd ..
+ 1580  mv game-test.js js
+ 1581  ls
+ 1582  cd js
+ 1583  ls
+ 1584  cd ../
+ 1585  rm game-test.js
+ 1586  cd js
+ 1587  vim game-test.js
+ 1588  ls
+ 1589  mv game-test.js ../
+ 1590  ls
+ 1591  cd ../
+ 1592  ls
+ 1593  cd css
+ 1594  ls
+ 1595  subl .
+ 1596  cd ../
+ 1597  subl .
+ 1598  ls
+ 1599  cd css
+ 1600  ls
+ 1601  cd ../
+ 1602  ls
+ 1603  cd js
+ 1604  ls
+ 1605  cd ../
+ 1606  mv game-test.js js
+ 1607  ls
+ 1608  cd css
+ 1609  cd ../images/
+ 1610  ls
+ 1611  open ferrari_67x164.png
+ 1612  cd ..
+ 1613  ls
+ 1614  mv game-test.js js
+ 1615  ls
+ 1616  mv game-test.css css
+ 1617  l
+ 1618  ls
+ 1619  cd images
+ 1620  ls
+ 1621  cp road.jpg ../
+ 1622  lls
+ 1623  ls
+ 1624  cd ../
+ 1625  ls
+ 1626  cd js
+ 1627  ls
+ 1628  cd ../
+ 1629  cp images/* ./
+ 1630  ls
+ 1631  cp js/* ./
+ 1632  cp css/* ./
+ 1633  ls
+ 1634  git log
+ 1635  git reset --hard 4dbe4b2538234e50148deef1309535a92da5dfce
+ 1636  ls
+ 1637  cd images
+ 1638  ls
+ 1639  cd ../
+ 1640  ls
+ 1641  mkdir unused
+ 1642  ls
+ 1643  mv *.png unused
+ 1644  ls
+ 1645  mv game.css game.js game.html unused
+ 1646  ls
+ 1647  mv renault* unused
+ 1648  ls
+ 1649  mv *.jpg unused
+ 1650  ls
+ 1651  mv unused/road.jpg ./
+ 1652  ls
+ 1653  mv requirement.md unused
+ 1654  ls
+ 1655  git add .
+ 1656  git commit -m "added purpose section to README file and created js and css directories to follow organised directory structure however found issues with detecting images on load of the game, therefore reverted back to the previous structure. This needs to be fixed soon"
+ 1657  git checkout develop 
+ 1658  git merge feature 
+ 1659  ssh-add ~/.ssh/Github
+ 1660  git push origin develop 
+ 1661  git checkout feature 
+ 1662  ls
+ 1663  cd images
+ 1664  ls
+ 1665  git add .
+ 1666  git commit -m "fixed the indentation on all files"
+ 1667  git add .
+ 1668  cd ../
+ 1669  ls
+ 1670  git add .
+ 1671  git commit -m "fixed all the indentation on all files"
+ 1672  git checkout develop 
+ 1673  git merge feature 
+ 1674  git push origin develop 
+ 1675  git checkout feature 
+ 1676  git add .
+ 1677  git commit -m"Added logic to change the speed meter colours when reaching certain speeds"
+ 1678  git checkout develop 
+ 1679  git merge feature 
+ 1680  git push origin develop 
+ 1681  git checkout feature 
+ 1682  git add .
+ 1683  git commit -m"added some effect to the score board when the game stops"
+ 1684  git checkout develop 
+ 1685  git merge feature 
+ 1686  git push origin develop 
+ 1687  git checkout feature 
+ 1688  git add .
+ 1689  git commit -m "added a start button to avoid the game playing automatically and to have more control for the user"
+ 1690  git checkout develop 
+ 1691  git merge feature 
+ 1692  git push origin develop 
+ 1693  ssh-add ~/.ssh/Github
+ 1694  git push origin develop 
+ 1695  cd ~/classwork/profile
+ 1696  ls
+ 1697  open profile_framework.html
+ 1698  mkdir versions
+ 1699  mv profile_update.* versions
+ 1700  ls
+ 1701  mv profile.* versions
+ 1702  ls
+ 1703  mv untitled.html versions
+ 1704  ls
+ 1705  open merril_profile.png
+ 1706  mv open merril.png
+ 1707  open merril.png
+ 1708  mv merril.png versions
+ 1709  mv merril6.JPG versions
+ 1710  mv merril7.JPG versions
+ 1711  ls
+ 1712  open ~/classwork/week3-project/game-test.html
+ 1713  mv ~/Desktop/project1-sparta.png ./
+ 1714  ls
+ 1715  subl profile_framework.html
+ 1716  subl profile_project.html
+ 1717  ls
+ 1718  mv ~/Desktop/project1-sparta.png ./
+ 1719  subl programs.html
+ 1720  git add .
+ 1721  git commit - "updated the profile to include week 1 project"
+ 1722  git commit -m "updated the profile to include week 1 project"
+ 1723  git branch
+ 1724  git checkout feature 
+ 1725  git add .
+ 1726  git commit -m "updated the profile with project 1"
+ 1727  git checkout feature 
+ 1728  git add .
+ 1729  git commit -m "updated profile"
+ 1730  git checkout develop 
+ 1731  git merge feature 
+ 1732  ssh-add ~/.ssh/Github
+ 1733  git push origin develop 
+ 1734  mv ~/Desktop/waterSlab.png ./
+ 1735  ls
+ 1736  git checkout feature 
+ 1737  ls
+ 1738  git checkout develop 
+ 1739  ls
+ 1740  subl profile_framework.css
+ 1741  mv ~/Desktop/acylChain.png ./
+ 1742  git add .
+ 1743  git commit -m "updated the images for the programs and removed some lists from interests nav"
+ 1744  git push origin develop 
+ 1745  git push origin master 
+ 1746  git pull origin master 
+ 1747  git push origin master 
+ 1748  git checkout master 
+ 1749  git merge develop 
+ 1750  git push origin master 
+ 1751  git checkout develop 
+ 1752  ls
+ 1753  macdown README.md
+ 1754  git add .
+ 1755  git commit -m "fixed the issues with the README headings and changed the link to the profile with the profile pic on the README"
+ 1756  git push origin develop 
+ 1757  cd ~/classwork/week3-project
+ 1758  git checkout feature 
+ 1759  git status
+ 1760  git add .
+ 1761  git commit -m "made some changes to the css file"
+ 1762  git checkout develop 
+ 1763  git merge feature 
+ 1764  git push origin develop 
+ 1765  git checkout master 
+ 1766  git merge develop 
+ 1767  git push origin master 
+ 1768  cd ~/classwork/profile
+ 1769  git status
+ 1770  git add .
+ 1771  git commit -m"changed the html file to update the link to the masters project and the first project at sparta"
+ 1772  git push origin develop 
+ 1773  git checkout master 
+ 1774  git merge develop 
+ 1775  git push origin master 
+ 1776  macdown README.md
+ 1777  git checkout develop 
+ 1778  git add .
+ 1779  git commit -m "fixed the main heading on README"
+ 1780  git push origin develop 
+ 1781  git checkout master 
+ 1782  git merge develop 
+ 1783  git push origin master 
+ 1784  cd ~/classwork/week3-project
+ 1785  open game-test.html
+ 1786  subl .
+ 1787  la
+ 1788  cd ~/
+ 1789  ls
+ 1790  cd classwork
+ 1791  mkdir ruby
+ 1792  cd ruby
+ 1793  brew --version
+ 1794  brew update && brew install exercism\n
+ 1795  brew install excercism
+ 1796  /Users/tech-a67/Downloads/exercism ; exit;
+ 1797  brew update && brew install exercism\n
+ 1798  brew analytics off
+ 1799  /Users/tech-a67/Downloads/exercism ; exit;
+ 1800  excercism
+ 1801  exercism
+ 1802  rub --version
+ 1803  ruby --version
+ 1804  ruby -version
+ 1805  ruby -v
+ 1806  ruby --v
+ 1807  irb
+ 1808  touch app.rb
+ 1809  ruby app.rb
+ 1810  subl app.rb
+ 1811  bundler init
+ 1812  gem install bundler
+ 1813  bundler init
+ 1814  ruby app.rb
+ 1815  gem install mac-say
+ 1816  subl .
+ 1817  gem uninstall mac-say
+ 1818  gem ls
+ 1819  gem list
+ 1820  bindle
+ 1821  bundle
+ 1822  ruby app.rb
+ 1823  mkdir ruby-variables
+ 1824  cd ruby-variables
+ 1825  touch app.rb
+ 1826  subl .
+ 1827  ruby app.rb
+ 1828  cd ../
+ 1829  mv ~/Downloads/variables .
+ 1830  ls
+ 1831  cd variables
+ 1832  ls
+ 1833  cd code
+ 1834  ls
+ 1835  cd starter-code
+ 1836  ls
+ 1837  subl person.rb
+ 1838  gem install rspec
+ 1839  rspec spec
+ 1840  ls
+ 1841  cd ../
+ 1842  ls
+ 1843  cd ../
+ 1844  ls
+ 1845  cd ../
+ 1846  ls
+ 1847  mkdir control-flow
+ 1848  cd control-flow
+ 1849  touch app.rb
+ 1850  subl .
+ 1851  ruby app.rb
+ 1852  cd ..
+ 1853  cd ~/classwork
+ 1854  ls
+ 1855  cd intro-to-js
+ 1856  ls
+ 1857  cd ..
+ 1858  ls
+ 1859  cd intro-to-js
+ 1860  ls
+ 1861  cd week-2
+ 1862  ls
+ 1863  subl rock-paper.js
+ 1864  cd ~/classwork/ruby
+ 1865  ls
+ 1866  mkdir hw
+ 1867  cd hw
+ 1868  touch rock-paper-scissors.rb
+ 1869  subl rock-paper-scissors.rb
+ 1870  subl ../variables/code/starter-code/person.rb
+ 1871  ruby rock-paper-scissors.rb
+ 1872  hig
+ 1873  ruby rock-paper-scissors.rb
+ 1874  ls
+ 1875  cd classwork/ruby
+ 1876  ls
+ 1877  cd control-flow
+ 1878  ruby app.rb
+ 1879  ls
+ 1880  ruby app.rb
+ 1881  ruby rock-paper-scissors.rb
+ 1882  subl ../variables/code/starter-code/person.rb
+ 1883  ruby rock-paper-scissors.rb
+ 1884  bindle
+ 1885  ruby rock-paper-scissors.rb
+ 1886  cd ../
+ 1887  ssh-add ~/.ssh/Github
+ 1888  git clone git@github.com:MerrilCode/Ruby.git
+ 1889  ls
+ 1890  rm Ruby
+ 1891  rm -R Ruby
+ 1892  mv . Ruby
+ 1893  cd Ruby
+ 1894  mv ../ .* ./
+ 1895  ls
+ 1896  cd ../
+ 1897  ls
+ 1898  cd Ruby
+ 1899  mv hw ./
+ 1900  mv ../hw .
+ 1901  ls
+ 1902  mv ../control-flow .
+ 1903  mv ../ruby-variables .
+ 1904  mv ../variables .
+ 1905  cd ..
+ 1906  ls
+ 1907  cd Ruby
+ 1908  git add .
+ 1909  git commit -m "week 4 first day of ruby with homework"
+ 1910  git push origin master
+ 1911  ssh-add ~/.ssh/Github
+ 1912  git push origin master
+ 1913  git push origin 
+ 1914  git push master
+ 1915  git push origin Ruby
+ 1916  git remote -v
+ 1917  git remote add origin git@github.com:MerrilCode/Ruby.git
+ 1918  git push origin Ruby
+ 1919  git push origin master
+ 1920  ls
+ 1921  cd hw
+ 1922  ls
+ 1923  subl .
+ 1924  cd ..
+ 1925  ls
+ 1926  cd ..
+ 1927  ls
+ 1928  cd Ruby
+ 1929  mkdir loops
+ 1930  ls
+ 1931  cd loops
+ 1932  touch app.rb
+ 1933  subl .
+ 1934  ruby app.rb
+ 1935  ls
+ 1936  mv ~/Downloads/starter-code(1) ./
+ 1937  mv ~/Downloads/starter-code2 ./
+ 1938  mv ~/Downloads/starter-code\ 2 ./
+ 1939  ls
+ 1940  cd starter-code\ 2
+ 1941  ls
+ 1942  subl .
+ 1943  ls
+ 1944  cd spec
+ 1945  ls
+ 1946  ruby loops_spec.rb
+ 1947  ls
+ 1948  rspec loops_spec.rb
+ 1949  gem install pry
+ 1950  rspec loops_spec.rb
+ 1951  ruby ../loops.rb
+ 1952  rspec loops_spec.rb
+ 1953  ruby ../loops.rb
+ 1954  rspec loops_spec.rb
+ 1955  ls
+ 1956  cd ../../
+ 1957  ls
+ 1958  cd ../
+ 1959  ls
+ 1960  mkdir ruby_methods
+ 1961  cd ruby
+ 1962  cd ruby_methods
+ 1963  touch app.rb
+ 1964  subl app.rb
+ 1965  ruby app.rb
+ 1966  mv ~/Downloads/methods ./
+ 1967  ls
+ 1968  cd methods
+ 1969  ls
+ 1970  subl functions.rb
+ 1971  cd spec
+ 1972  ls
+ 1973  rspec functions_spec.rb
+ 1974  subl functions_spec.rb
+ 1975  rspec functions_spec.rb
+ 1976  ls
+ 1977  cd classwork
+ 1978  ls
+ 1979  cd week3-project
+ 1980  ls
+ 1981  open game-test.html
+ 1982  open
+ 1983  pwd
+ 1984  rspec functions_spec.rb
+ 1985  cd ../../
+ 1986  ls
+ 1987  cd ../
+ 1988  mkdir classes
+ 1989  cd classes
+ 1990  touch app.rb
+ 1991  subl app.rb
+ 1992  ruby app.rb
+ 1993  touch app1.rb
+ 1994  subl app1.rb
+ 1995  touch app2.rb
+ 1996  subl app2.rb
+ 1997  ruby app2.rb
+ 1998  touch Car.rb
+ 1999  subl Car.rb
+ 2000  subl app2.rb
+ 2001  ruby app2.rb
+ 2002  cd ../../
+ 2003  ls
+ 2004  cd Ruby
+ 2005  ssh-add ~/.ssh/Github
+ 2006  git push origin master
+ 2007  git add .
+ 2008  git commit -m "Includes loops and object tutorials and excercises"
+ 2009  cd loops
+ 2010  ls
+ 2011  cd starter-code\ 2
+ 2012  ls
+ 2013  subl loops.rb
+ 2014  cd ..
+ 2015  ls
+ 2016  cd ..
+ 2017  ls
+ 2018  cd ruby_methods
+ 2019  ls
+ 2020  subl app.rb
+ 2021  cd methods
+ 2022  ls
+ 2023  subl functions.rb
+ 2024  cd spec
+ 2025  ls
+ 2026  rspec functions_spec.rb
+ 2027  ls
+ 2028  subl functions_spec.rb
+ 2029  rspec functions_spec.rb
+ 2030  touch test.rb
+ 2031  subl test.rb
+ 2032  ruby test.rb
+ 2033  rspec functions_spec.rb
+ 2034  subl test.rb
+ 2035  ruby test.rb
+ 2036  rspec functions_spec.rb
+ 2037  ruby test.rb
+ 2038  rspec functions_spec.rb
+ 2039  cd ../../
+ 2040  cd ../
+ 2041  git add.
+ 2042  git add .
+ 2043  git commit -m"added method labs solution"
+ 2044  git push origin master 
+ 2045  brew update && brew install exercism\n
+ 2046  excercism --version
+ 2047  exercism --version
+ 2048  pip 
+ 2049  brew install exercism
+ 2050  xcode-select --install
+ 2051  brew install exercism
+ 2052  exercism configure --key=git@github.com:MerrilCode/Ruby.git
+ 2053  exercism configure --dir=./
+ 2054  mkdir -p ~/.config/exercism/
+ 2055  curl http://cli.exercism.io/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash\n
+ 2056  vim ~/.bash_profile
+ 2057  source ~/.bash_profile
+ 2058  exercism s
+ 2059  exercism --h
+ 2060  exercism fetch
+ 2061  exercism fetch ruby
+ 2062  ls
+ 2063  cd ruby
+ 2064  ls
+ 2065  subl hello-world
+ 2066  gem install minitest
+ 2067  ls
+ 2068  ruby hello-world/hello_world_test.rb
+ 2069  ls
+ 2070  cd hello-world
+ 2071  touch hello_world.rb
+ 2072  ruby hello-world/hello_world_test.rb
+ 2073  cd ..
+ 2074  ls
+ 2075  ruby hello-world/hello_world_test.rb
+ 2076  exercism submit hello-world/hello_world.rb
+ 2077  \t\nexercism configure --key=d120c03d31d34aa9b90670e1f4857fc1\n
+ 2078  exercism submit hello-world/hello_world.rb
+ 2079  ls
+ 2080  subl hello-world/hello_world.rb
+ 2081  exercism submit hello-world/hello_world.rb
+ 2082  ruby hello-world/hello_world_test.rb
+ 2083  exercism submit hello-world/hello_world.rb
+ 2084  exercism fetch ruby
+ 2085  ls
+ 2086  cd hamming
+ 2087  ls
+ 2088  subl README.md
+ 2089  cd ..
+ 2090  ls
+ 2091  cd ..
+ 2092  ls
+ 2093  cd classes
+ 2094  ls
+ 2095  subl .
+ 2096  ls
+ 2097  mv ~/Downloads/oo-basics ./
+ 2098  ls
+ 2099  cd oo-basics
+ 2100  ls
+ 2101  subl README.md
+ 2102  cd starter-code
+ 2103  LS
+ 2104  subl app.rb
+ 2105  touch area_perimeter
+ 2106  subl area_perimeter
+ 2107  mv area_perimeter area_perimeter.rb
+ 2108  subl area_perimeter.rb
+ 2109  ruby app.rb
+ 2110  ls
+ 2111  mv ~/Downloads/class-solution ./
+ 2112  ls
+ 2113  cd class-solution
+ 2114  ls
+ 2115  subl square.rb
+ 2116  subl app.rb
+ 2117  cd ../
+ 2118  ruby app.rb
+ 2119  cd class-solution
+ 2120  ruby app.rb
+ 2121  cd ../
+ 2122  ruby app.rb
+ 2123  ls
+ 2124  cd ../../
+ 2125  cd ../
+ 2126  ls
+ 2127  cd ../
+ 2128  ls
+ 2129  cd Ruby
+ 2130  cd ../
+ 2131  ls
+ 2132  cd Ruby
+ 2133  ls
+ 2134  cd ruby
+ 2135  ls
+ 2136  cd hamming
+ 2137  ls
+ 2138  subl README.md
+ 2139  ls
+ 2140  subl README.md
+ 2141  ruby RUNNING_TESTS.md
+ 2142  cd ..
+ 2143  ls
+ 2144  cd ..
+ 2145  ls
+ 2146  cd classes
+ 2147  cd ../
+ 2148  mkdir sinatra-intro
+ 2149  cd sinatra-intro
+ 2150  touch app.rb
+ 2151  subl app.rb
+ 2152  bindler init
+ 2153  bundler init
+ 2154  subl Gemfile
+ 2155  bundle
+ 2156  ruby app.rb
+ 2157  gem installsinatra-reloader
+ 2158  gem install sinatra-reloader
+ 2159  ruby app.rb
+ 2160  mkdir controllers
+ 2161  touch controllers/posts_controller.rb
+ 2162  tree
+ 2163  subl .
+ 2164  mv controllers/posts_controller.rb controllers/contacts_controller.rb
+ 2165  ls
+ 2166  touch config.ru
+ 2167  ls
+ 2168  rm app.rb
+ 2169  rackup
+ 2170  ls
+ 2171  cd ../
+ 2172  ls
+ 2173  mkdir sinatra-tut
+ 2174  cd sinatra-tut
+ 2175  ls
+ 2176  touch config.ru
+ 2177  subl config.ru
+ 2178  bundle init
+ 2179  gem list --local sinatra
+ 2180  subl .
+ 2181  mkdir controller
+ 2182  touch controller/cat_controller.rb
+ 2183  subl controller/cat_controller.rb
+ 2184  rackup
+ 2185  bundle
+ 2186  ruby app.rb
+ 2187  bundle
+ 2188  rackup
+ 2189  git add .
+ 2190  git commit -m "sinatra stuff added"
+ 2191  ssh-add ~/.ssh/Github
+ 2192  git push origin master 
+ 2193  rackup
+ 2194  ls
+ 2195  cp ~/classwork/week3-project/game-test.html ./
+ 2196  ls
+ 2197  mv game-test.html controller
+ 2198  rackup
+ 2199  cp ~/classwork/week3-project/game-test.html ./rackup
+ 2200  ls
+ 2201  cd controller
+ 2202  ls
+ 2203  cd ../
+ 2204  rm rackup
+ 2205  rackup
+ 2206  ls
+ 2207  cd controller
+ 2208  ls
+ 2209  rackup
+ 2210  cd ../
+ 2211  rackup
+ 2212  ls
+ 2213  cd controller
+ 2214  open .
+ 2215  open game-test.html
+ 2216  cd ../
+ 2217  rackup
+ 2218  mv controller/game-test.html ./
+ 2219  ls
+ 2220  rackup
+ 2221  mkdir public
+ 2222  ls
+ 2223  mv game-test.html public
+ 2224  rackup
+ 2225  ls
+ 2226  mkdir views
+ 2227  cp public/game-test.html views
+ 2228  ls
+ 2229  cd views
+ 2230  ls
+ 2231  cd ..
+ 2232  ls
+ 2233  rackup
+ 2234  rackup --port 3000
+ 2235  rackup
+ 2236  if config
+ 2237  if_config
+ 2238  ifconfig
+ 2239  rackup
+ 2240  ls
+ 2241  mv public/game-test.html ./
+ 2242  rackup
+ 2243  cd ../
+ 2244  cd sinatra-intro
+ 2245  subl .
+ 2246  rackup
+ 2247  ls
+ 2248  mkdir views
+ 2249  ls
+ 2250  mkdir views/contacts
+ 2251  touch views/contacts/index.erb
+ 2252  git add .
+ 2253  git commit -m "added views engine"
+ 2254  ls
+ 2255  rackup
+ 2256  ls
+ 2257  touch views/contacts/show.erb
+ 2258  ls
+ 2259  rackup
+ 2260  ls
+ 2261  touch views/contacts/new.erb
+ 2262  rackup
+ 2263  touch views/contacts/edit.erb
+ 2264  rackup
+ 2265  touch views/contacts/test.erb
+ 2266  rackup
+ 2267  ls
+ 2268  cd ../
+ 2269  ls
+ 2270  cd sinatra-tut
+ 2271  ls
+ 2272  cd ../
+ 2273  l
+ 2274  ls
+ 2275  mkdir sinatra-practice-viewEngine
+ 2276  cd sinatra-practice-viewEngine
+ 2277  ls
+ 2278  cd classwork/ruby
+ 2279  ls
+ 2280  cd Ruby
+ 2281  ls
+ 2282  cd sinatra-intro
+ 2283  ls
+ 2284  bundler init
+ 2285  subl .
+ 2286  bundle
+ 2287  ls
+ 2288  touch config.ru
+ 2289  mkdir controller
+ 2290  mkdir views
+ 2291  touch controller/car_controller.rb
+ 2292  ls
+ 2293  cd controller
+ 2294  bundle
+ 2295  git add .
+ 2296  git commit -m "added the view engine"
+ 2297  ssh-add ~/.ssh/Github
+ 2298  git push origin master 
+ 2299  ls
+ 2300  cd ../
+ 2301  touch views/show.erb
+ 2302  touch views/index.erb
+ 2303  rackup
+ 2304  ls
+ 2305  rackup
+ 2306  ls
+ 2307  mkdir views/cars
+ 2308  mv views/*.erb views/cars
+ 2309  cs views/cars
+ 2310  cd views/cars
+ 2311  ls
+ 2312  cd ../
+ 2313  ls
+ 2314  cd ../
+ 2315  ls
+ 2316  rackup
+ 2317  ls
+ 2318  cd views
+ 2319  ls
+ 2320  cd ..
+ 2321  rackup
+ 2322  subl .
+ 2323  ls
+ 2324  cd controller
+ 2325  ls
+ 2326  cd ..
+ 2327  cd views
+ 2328  ls
+ 2329  cd cars
+ 2330  ls
+ 2331  cd ../
+ 2332  ls
+ 2333  rm index.erb
+ 2334  rm show.erb
+ 2335  ls
+ 2336  cd ..
+ 2337  ls
+ 2338  rackup
+ 2339  touch views/cars/new.erb
+ 2340  ls
+ 2341  cd views
+ 2342  ls
+ 2343  rm index.erb
+ 2344  ls
+ 2345  rm show.erb
+ 2346  ls
+ 2347  cd cars
+ 2348  ls
+ 2349  cd ../
+ 2350  ls
+ 2351  cd ../
+ 2352  ls
+ 2353  cd views
+ 2354  ls
+ 2355  rm index.erb
+ 2356  rm show.erb
+ 2357  ls
+ 2358  cd cars
+ 2359  ls
+ 2360  cd ../
+ 2361  cd ..
+ 2362  ls
+ 2363  subl .
+ 2364  ls 
+ 2365  cd views
+ 2366  ls
+ 2367  cd ..
+ 2368  ls
+ 2369  rackup
+ 2370  ls
+ 2371  touch views/cars/edit.erb
+ 2372  rackup
+ 2373  ssh-add ~/.ssh/Github
+ 2374  git add .
+ 2375  git commit -m "Added an example based on Ollies tutorial"
+ 2376  git push origin master 
+ 2377  rackup
+ 2378  git add .
+ 2379  git commit -m "added images to the list of cars"
+ 2380  git push origin master 
+ 2381  ssh-add ~/.ssh/Github
+ 2382  git add .
+ 2383  git commit -m "Fixed intendation"
+ 2384  git push origin master 
+ 2385  cd ..
+ 2386  ls
+ 2387  mkdir model
+ 2388  cd model
+ 2389  mkdir views
+ 2390  mkdir views/contacts
+ 2391  ls
+ 2392  touch contacts_controller
+ 2393  cd ..
+ 2394  cd sinatra-intro
+ 2395  subl .
+ 2396  touch views/layout.erb
+ 2397  subl .
+ 2398  rackup
+ 2399  cd ~/classwork/ruby
+ 2400  ls
+ 2401  cd Ruby
+ 2402  ls
+ 2403  cd model
+ 2404  ls
+ 2405  mv contacts_controller contacts_controller.erb
+ 2406  subl contacts_controller.erb
+ 2407  mkdir views/partials
+ 2408  touch views/partials/navigation.erb
+ 2409  rackup
+ 2410  psql
+ 2411  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "tech-a67"
+ 2412  cd ~/classwork/ruby/Ruby/model
+ 2413  ls
+ 2414  subl contacts_controller.erb
+ 2415  ls
+ 2416  cd ..
+ 2417  rm -R model
+ 2418  ls
+ 2419  mv ~/Downloads/sinatra-intro-ollie ./
+ 2420  cd sinatra-intro-ollie
+ 2421  ls
+ 2422  subl .
+ 2423  cd ..
+ 2424  cd sinatra-intro
+ 2425  cd ..
+ 2426  ls
+ 2427  mv ~/Downloads/ruby-models ./
+ 2428  ls
+ 2429  cd ruby-models
+ 2430  ls
+ 2431  subl .
+ 2432  psql -d blog ls
+ 2433  cd ../
+ 2434  ls
+ 2435  cd ruby-models
+ 2436  ls
+ 2437  psql -d blog -f seed.sql
+ 2438  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "blog"
+ 2439  bundle
+ 2440  sudo find / -name "pg_config"
+ 2441  gem install pg -- --with-pg-config=/Volumes/Postgres-2.1.1/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2442  mkdir models
+ 2443  touch models/post.rb
+ 2444  rackup
+ 2445  cd ../
+ 2446  ls
+ 2447  mv ~/Downloads/ruby-models-solution ./
+ 2448  ls
+ 2449  subl .
+ 2450  cd ruby-models-solution
+ 2451  subl .
+ 2452  rackup
+ 2453  bundle
+ 2454  rackup
+ 2455  cd ~/classwork/ruby/Ruby/ruby-models-solution
+ 2456  ls
+ 2457  rackup
+ 2458  cd ~/classwork/ruby/Ruby/sinatra-practice-viewEngine
+ 2459  ls
+ 2460  cp ../ruby-models-solution/models ./
+ 2461  cp -R ../ruby-models-solution/models ./
+ 2462  ls
+ 2463  cp -R ../ruby-models-solution/models ./
+ 2464  ls
+ 2465  cp -R ../ruby-models-solution/seed.sql ./
+ 2466  ls
+ 2467  psql
+ 2468  sudo find / -name "pg_config"
+ 2469  gem install pg
+ 2470  psql
+ 2471  gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2472  psql
+ 2473  psql --version
+ 2474  psql
+ 2475  locate psql | grep /bin
+ 2476  locate psql
+ 2477  sudo find / -name "pg_config"
+ 2478  gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2479  pg
+ 2480  psql
+ 2481  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "tech-a67"
+ 2482  ls
+ 2483  subl .
+ 2484  DROP DATABASE cars
+ 2485  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "cars"
+ 2486  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "blog"
+ 2487  cd ~/classwork/ruby/Ruby/sinatra-practice-viewEngine
+ 2488  psql
+ 2489  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "blog"
+ 2490  rackup
+ 2491  bundle
+ 2492  rackup
+ 2493  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "cars"
+ 2494  rackup
+ 2495  bundle
+ 2496  rackup
+ 2497  git add .
+ 2498  git commit -m "adding database and model into the practice sinatra"
+ 2499  ssh-add ~/.ssh/Github
+ 2500  git push origin master 
+ 2501  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "cars"
+ 2502  rackup
+ 2503  cd ~/classwork
+ 2504  ls
+ 2505  cd profile
+ 2506  ls
+ 2507  bundle init
+ 2508  subl .
+ 2509  bundle
+ 2510  mkdir controller
+ 2511  touch controller/profile_controller.rb
+ 2512  touch controller/config.ru
+ 2513  rm controller/config.ru
+ 2514  touch config.ru
+ 2515  ls
+ 2516  mkdir public
+ 2517  mv profile_framework.html public
+ 2518  rackup
+ 2519  mv profile_framework.css public
+ 2520  mv profile_project.html public
+ 2521  ls
+ 2522  mv Project_Merril.pdf public
+ 2523  ls
+ 2524  mv acylChain.png public
+ 2525  mv favicon.png public
+ 2526  mv lipid_trans.py public
+ 2527  mv md-analysis.png public
+ 2528  mv merril_profile.png public
+ 2529  mv programs.html public
+ 2530  mv project-1-screenshot.png public
+ 2531  mv project1-sparta.png public
+ 2532  mv remove_water.pl public
+ 2533  mv sparta-global-logo-white.svg public
+ 2534  mv waterSlab.png public
+ 2535  ls
+ 2536  rackup
+ 2537  pwd
+ 2538  ls
+ 2539  cd public
+ 2540  ls
+ 2541  pwd
+ 2542  cd ../
+ 2543  cd ..
+ 2544  cd ruby/Ruby/sinatra-practice-viewEngine
+ 2545  ls
+ 2546  rackup
+ 2547  ls
+ 2548  cd ..
+ 2549  ls
+ 2550  cd ruby-models-solution
+ 2551  ls
+ 2552  subl .
+ 2553  mkdir public
+ 2554  mkdir public/{css,js,images}
+ 2555  ls
+ 2556  cd public
+ 2557  ls
+ 2558  cd ..
+ 2559  ls
+ 2560  touch public/css/master.css
+ 2561  rackup
+ 2562  touch public/js/app.js
+ 2563  rackup
+ 2564  ls
+ 2565  cd public/images
+ 2566  ls
+ 2567  cd ..
+ 2568  ls
+ 2569  cd images
+ 2570  mv OWO3ca8Y98k.html demo.jpg
+ 2571  cd ..
+ 2572  ls
+ 2573  cd ..
+ 2574  rackup
+ 2575  cd ..
+ 2576  ls
+ 2577  mvc-miniProject
+ 2578  mkdir mvc-miniProject
+ 2579  ls
+ 2580  cd mvc-miniProject
+ 2581  l
+ 2582  ls
+ 2583  mkdir company_controller
+ 2584  ls
+ 2585  mv company_controller genes_controller
+ 2586  ls
+ 2587  touch config.ru
+ 2588  ls
+ 2589  mv genes_controller controllers
+ 2590  touch controllers/genes_controller.erb
+ 2591  subl .
+ 2592  bundle init
+ 2593  bundle
+ 2594  ls
+ 2595  mv controllers/genes_controller.erb genes_controller.erb
+ 2596  ls
+ 2597  cd controllers
+ 2598  ls
+ 2599  cd ..
+ 2600  ls
+ 2601  rm genes_controller.erb
+ 2602  ls
+ 2603  mv controllers/genes_controller.erb controllers/genes_controller.rb
+ 2604  rm controllers/genes_controller.erb
+ 2605  ls
+ 2606  mkdir models
+ 2607  mkdir views
+ 2608  ls
+ 2609  mkdir public
+ 2610  ls
+ 2611  touch views/index.erb
+ 2612  rackup
+ 2613  ls
+ 2614  cd ..
+ 2615  ls
+ 2616  cd mvc-miniProject
+ 2617  ls
+ 2618  cd views
+ 2619  ls
+ 2620  cd ..
+ 2621  ls
+ 2622  rackup
+ 2623  cp ../ruby-models-solution/seed.sql ./
+ 2624  CREATE DATABASE genes;
+ 2625  psql
+ 2626  "/Applications/Postgres.app/Contents/Versions/10/bin/psql" -p5432 -d "postgres"
+ 2627  touch models/gene.rb
+ 2628  rackup
+ 2629  touch views/show.erb
+ 2630  touch views/edit.erb
+ 2631  touch views/new.erb
+ 2632  rackup
+ 2633  touch views/form.erb
+ 2634  rackup
+ 2635  touch views/layout.erb
+ 2636  ls
+ 2637  mkdir partials
+ 2638  touch partials/navigation.erb
+ 2639  rackup
+ 2640  ls
+ 2641  mv partials/ views
+ 2642  rackup
+ 2643  ls
+ 2644  mkdir public/{css,images,js}
+ 2645  ls
+ 2646  touch public/css/master.css
+ 2647  touch public/js/app.js
+ 2648  rackup
+ 2649  ls
+ 2650  cd ~
+ 2651  ls
+ 2652  cd classwork
+ 2653  ls
+ 2654  ssh-add ~/.ssh/Gihub
+ 2655  ssh-add ~/.ssh/Github
+ 2656  git clone git@github.com:MerrilCode/mvc-practice-project.git
+ 2657  ls
+ 2658  cp -R ~/classwork/ruby/Ruby/mvc-miniProject/.* ./
+ 2659  cp -R ~/classwork/ruby/Ruby/mvc-miniProject/* ./
+ 2660  ls
+ 2661  mv Gemfile* mvc-practice-project
+ 2662  ls
+ 2663  mv config.ru mvc-practice-project
+ 2664  mv seed.sql mvc-practice-project
+ 2665  mv models mvc-practice-project
+ 2666  mv views mvc-practice-project
+ 2667  mv public mvc-practice-project
+ 2668  ls
+ 2669  mv controllers mvc-practice-project
+ 2670  ls
+ 2671  cd mvc-practice-project
+ 2672  ls
+ 2673  cd controllers
+ 2674  ls
+ 2675  cd ..
+ 2676  git add .
+ 2677  git commit -m "First version of mini-project"
+ 2678  git push origin master 
+ 2679  rackup
+ 2680  subl .
+ 2681  rackup
+ 2682  cd ~/classwork/ruby/Ruby/ruby-models-solution
+ 2683  ls
+ 2684  subl .
+ 2685  git add .
+ 2686  git commit -m"Added background image, made the forms and buttons using bootstrap"
+ 2687  ssh-add ~/.ssh/Github
+ 2688  git push origin master 
+ 2689  rackup
+ 2690  tree
+ 2691  rackup
+ 2692  cd ~/classwork/week3-project
+ 2693  ls
+ 2694  subl .
+ 2695  rackup
+ 2696  git add .
+ 2697  git commit -m"changed the button position in the show.erb,addeda background image to the show page, changed css styling"
+ 2698  git push origin master 
+ 2699  rackup
+ 2700  cd ..
+ 2701  ls
+ 2702  cd ruby
+ 2703  cd Ruby
+ 2704  ls
+ 2705  mkdir ruby-rails
+ 2706  cd ruby-rails
+ 2707  gem install rails
+ 2708  rails -v
+ 2709  rails --v
+ 2710  rails new intro-rails -d monogodb
+ 2711  rbenv rehash
+ 2712  rails -v
+ 2713  rails new intro-project -d postgresql
+ 2714  sudo gem install pg
+ 2715  ls
+ 2716  cd intro-project
+ 2717  bundle
+ 2718  pg -v
+ 2719  sudo find / -name "pg_config"
+ 2720  gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2721  sudo gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2722  bundle
+ 2723  bundle config build.pg --with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config
+ 2724  bundle
+ 2725  treee
+ 2726  tree
+ 2727  ls
+ 2728  subl .
+ 2729  rails s
+ 2730  rails g scaffold Sheep name:string weight:integer color:text
+ 2731  rake routes
+ 2732  rails s
+ 2733  rake db:create
+ 2734  rake db:migrate
+ 2735  rails s
+ 2736  rails d scaffold Sheep
+ 2737  rails s
+ 2738  rails g controller Recipe
+ 2739  rake routes
+ 2740  rails s
+ 2741  rails g Static
+ 2742  rails g controller Static
+ 2743  rails s
+ 2744  rails g scaffold_controller Recipe
+ 2745  rake routes
+ 2746  rails s
+ 2747  history

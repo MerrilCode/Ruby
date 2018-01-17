@@ -12,60 +12,57 @@ class CarController < Sinatra::Base
 	  	erb :"cars/index"
 	end
 
-	#NEW CAR
-# 	get '/cars/new' do
-# 		@brand = "Brand"
-# 		@year = "Year"
-# 		erb :"cars/new"
-# 	end
-# 	# EDIT CAR
-# 	get '/cars/:id/edit' do
-# 		id = params[:id]
-# 		@car = $cars[id.to_i]
-# 		erb :"cars/edit"
-# 	end
+	# #NEW CAR
+	get '/cars/new' do
+		@name = "Name"
+		@year = "Year"
+		@url  = "url to an image"
+		erb :"cars/new"
+	end
+	# EDIT CAR
+	get '/cars/:id/edit' do
+		id = params[:id]
+		@car = Post.find id
+		erb :"cars/edit"
+	end
 
 # 	#UPDATE CAR
 
-# 	put '/cars/:id'  do
+	put '/cars/:id'  do
     
-# 	    id = params[:id].to_i
-# 	    puts id
-	      
-# 	    edited_car = {
-#         	id: id,
-#         	brand: params[:brand],
-#         	year: params[:year]
-#         }
-#         $cars[id] = edited_car
-	      
-# 	    redirect "/cars/#{id}";  
-#   	end
+	    id = params[:id].to_i
+	    post = Post.new
+	    post.id   = params[:id]
+	    post.name = params[:name]
+	    post.year = params[:year]
+	    post.url  = params[:url]
+	    post.save
+	    redirect "/cars/#{id}";  
+  	end
 
 	
 # #SHOW CAR
-# 	get '/cars/:id' do
-# 		id = params[:id]
-# 		@car = $cars[id.to_i]
-# 		erb :"cars/show"
-# 	end
+	get '/cars/:id' do
+		id = params[:id]
+		@car = Post.find id
+		erb :"cars/show"
+	end
 
 # # ADD NEW CAR
-# 	post '/cars' do
-# 		new_car = {
-# 			id: $cars.length,
-# 			brand: params[:brand],
-# 			year: params[:year]
-# 		}
-# 		$cars.push(new_car)
-# 		redirect "/cars"
-# 	end
+	post '/cars' do
+		post = Post.new
+		post.name = params[:name]
+		post.year = params[:year]
+		post.url  = params[:url]
+		post.save
+		redirect "/cars"
+	end
 
 # 	#DELETE CAR
-# 	delete '/cars/:id' do
-# 		id = params[:id].to_i
-# 		$cars.delete_at(id)
-# 		redirect '/cars'
-# 	end
+	delete '/cars/:id' do
+		id = params[:id].to_i
+		Post.destroy id
+		redirect '/cars'
+	end
 
 end

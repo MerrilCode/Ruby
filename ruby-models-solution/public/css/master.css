@@ -1,0 +1,20 @@
+
+:root {
+	--background-color:grey;
+	--image-width:200px;
+}
+
+* {
+	font-family: sans-serif;
+}
+html {
+
+	background-color:var(--background-color);
+}
+img {
+	width:var(--image-width);
+}
+
+body {
+	background-image: url('../images/demo.jpeg');
+}
