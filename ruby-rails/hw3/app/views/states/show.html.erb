@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @state.name %>
+</p>
+
+<p>
+  <strong>No pl teams:</strong>
+  <%= @state.no_pl_teams %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @state.country[:name] %>
+</p>
+
+<%= link_to 'Edit', edit_country_state_path(@state.country, @state) %> |
+<%= link_to 'Back', country_states_path %>

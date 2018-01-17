@@ -1,0 +1,6 @@
+<h1>Editing Pokemon</h1>
+
+<%= render 'form', pokemon: @pokemon %>
+
+<%= link_to 'Show', [@pokemon.trainer, @pokemon] %> |
+<%= link_to 'Back', trainer_pokemons_path(@pokemon.trainer) %>
