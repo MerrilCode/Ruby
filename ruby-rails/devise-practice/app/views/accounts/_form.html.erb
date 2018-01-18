@@ -1,0 +1,32 @@
+<form>
+
+  <%= form_with(model: account, local: true) do |form| %>
+    <% if account.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(account.errors.count, "error") %> prohibited this account from being saved:</h2>
+
+        <ul>
+        <% account.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :company %>
+      <%= form.text_field :company, id: :account_company, class: 'form-control', id:':company'%>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :fee %>
+      <%= form.number_field :fee, id: :account_fee, class: 'form-control',id:':fee' %>
+    </div>
+  </div>
+
+    <div class="actions">
+      <%= form.submit %>
+    </div>
+  <% end %>
+</form>

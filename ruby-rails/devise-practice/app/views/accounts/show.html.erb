@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-centered"> <strong>Company:</strong>
+  <%= @account.company %>
+  </div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+	  <strong>Fee:</strong>
+	  <%= @account.fee %>
+	</div>
+</div>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>

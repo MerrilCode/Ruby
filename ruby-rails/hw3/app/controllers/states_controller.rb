@@ -12,7 +12,7 @@ class StatesController < ApplicationController
   # GET /states/1.json
   def show
     country = Country.find(params[:country_id])
-    @state = country.states.find(params[:country_id])
+    @state = country.states.find(params[:id])
 
   end
 

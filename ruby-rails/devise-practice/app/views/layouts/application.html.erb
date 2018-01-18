@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DevisePractice</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+    	<nav class ="navbar navbar-default">
+        <div class="container-fluid">
+          <% if user_signed_in? %>
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Logged in as <%= current_user.email %></a>
+            </div>
+             <ul class="nav navbar-nav">
+              <li><%= link_to 'Edit Profile', edit_user_registration_path, class: 'navbar-link' %></li>
+              <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+            </ul>
+            <% else %>
+            <ul class="nav navbar-nav">
+              <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+              <li><%= link_to 'Log In', new_user_session_path %></li>
+            </ul>
+          <% end %>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <%= yield %>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
