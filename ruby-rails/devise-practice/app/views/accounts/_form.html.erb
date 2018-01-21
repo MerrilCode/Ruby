@@ -1,12 +1,11 @@
-<form>
 
-  <%= form_with(model: account, local: true) do |form| %>
-    <% if account.errors.any? %>
+  <%= form_for([@account.user,@account]) do |form| %>
+    <% if @account.errors.any? %>
       <div id="error_explanation">
-        <h2><%= pluralize(account.errors.count, "error") %> prohibited this account from being saved:</h2>
+        <h2><%= pluralize(@account.errors.count, "error") %> prohibited this account from being saved:</h2>
 
         <ul>
-        <% account.errors.full_messages.each do |message| %>
+        <% @account.errors.full_messages.each do |message| %>
           <li><%= message %></li>
         <% end %>
         </ul>
@@ -24,9 +23,14 @@
       <%= form.number_field :fee, id: :account_fee, class: 'form-control',id:':fee' %>
     </div>
   </div>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :company_sector %>
+      <%= form.text_field :company_sector, id: :account_company_sector, class: 'form-control',id:':company_sector' %>
+    </div>
+  </div>
 
     <div class="actions">
       <%= form.submit %>
     </div>
   <% end %>
-</form>

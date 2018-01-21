@@ -5,17 +5,20 @@ class AccountsController < ApplicationController
   # GET /accounts
   # GET /accounts.json
   def index
-    @accounts = current_user.accounts
+    @search = current_user.accounts.search(params[:q])
+    @accounts = @search.result
   end
 
   # GET /accounts/1
   # GET /accounts/1.json
   def show
+
   end
 
   # GET /accounts/new
   def new
-    @account = Account.new
+    @user = current_user
+    @account = @user.accounts.new
   end
 
   # GET /accounts/1/edit
@@ -27,10 +30,9 @@ class AccountsController < ApplicationController
   def create
     @account = Account.new(account_params)
     @account.user = current_user
-
     respond_to do |format|
       if @account.save
-        format.html { redirect_to @account, notice: 'Account was successfully created.' }
+        format.html { redirect_to user_account_path(@account.user,@account), notice: 'Account was successfully created.' }
         format.json { render :show, status: :created, location: @account }
       else
         format.html { render :new }
@@ -44,7 +46,7 @@ class AccountsController < ApplicationController
   def update
     respond_to do |format|
       if @account.update(account_params)
-        format.html { redirect_to @account, notice: 'Account was successfully updated.' }
+        format.html { redirect_to user_account_path(@account.user,@account), notice: 'Account was successfully updated.' }
         format.json { render :show, status: :ok, location: @account }
       else
         format.html { render :edit }
@@ -58,7 +60,7 @@ class AccountsController < ApplicationController
   def destroy
     @account.destroy
     respond_to do |format|
-      format.html { redirect_to accounts_url, notice: 'Account was successfully destroyed.' }
+      format.html { redirect_to user_accounts_path(@account.user), notice: 'Account was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -68,6 +70,7 @@ class AccountsController < ApplicationController
     def set_account
       @account = Account.find(params[:id])
     end
+   
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def account_params
